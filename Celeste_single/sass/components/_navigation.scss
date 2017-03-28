@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.article--top{
+	display: flex;
+}
+.article_nav{
+	width: 110px;
+	height: 710px;
+	text-align: right;
+	position: relative;
+	top: 40px;
+	&_li{
+		list-style: none;
+		margin: 12px 2px;
+		cursor: pointer;
+		&_title{
+			@include set-font(bold 12px Arial Bold, #333);
+		}
+		&_content{
+			@include set-font(10px Arial Regular, #333);
+		}
+	}
+
+	.active{
+		font: bold 16px LeagueGothic;
+		color: #0a8ca3;
+	}
+}
+
+

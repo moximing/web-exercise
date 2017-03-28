@@ -1,0 +1,222 @@
+.article{
+	padding: 0 10px;
+	background-color: #ebe4de;
+	height: 1650px;
+}
+.article--middle{
+	&_title{
+		@include set-font(bold 24px LeagueGothic, #333);
+		color: #0a8ca3;
+		padding: 30px;
+		&arrow{
+
+		}
+	}
+	&_content1{
+		padding: 0 48px;
+	}
+	&_content2{
+		padding-left: 150px;
+	}
+
+	%place{
+		display: inline-block;
+		position: relative;
+		top: -60px;
+	}
+
+	.content1{
+		&_h3{
+			@include set-font(18px Arial Bold, #1f1e1e);	
+			padding-left: 18px;
+			@extend %place;
+		}
+		&_time{
+			@include set-font(14px Arial Regular, #9c9b9b);
+			@extend %place;
+		}
+		&_a{
+			@include set-font(14px Arial Regular, #1ea1b5);
+			@extend %place;
+		}
+		&_p{
+			@include set-font(10px Arial Regular, #777);
+			@extend %place;
+			width: 530px;
+			left: 100px;
+			text-align: justify;
+		}
+	}
+
+	.content2{
+		&_h3{
+			@extend .content1_h3;
+		}
+		&_time{
+			@extend .content1_time;
+		}
+		&_a{
+			@extend .content1_a;
+		}
+		&_p{
+			@extend .content1_p;
+			width: 430px;
+		}
+	}
+}
+
+.hr{
+		margin-top: 50px;
+		border-top: 1px solid #faf8f7;
+		box-shadow: 0px 1px 1px #cec0b4;
+}
+
+%border{
+	width: 320px;
+	color: #f1ede9;
+	border: 1px solid #dfd5cc;
+	box-shadow: 0px 1px 1px #e3dad2;
+}
+%input-size{
+	margin: 11px 0;
+	padding: 6px 0;
+}
+
+.article--last{
+	@include set-font(bold 14px Arial Regular, #555);
+	padding: 0 20px;
+	&_title{
+		@include set-font(bold 30px LeagueGothic, #333);
+		padding: 50px 0;
+	}
+	&_nombre{
+		@extend %border;
+		@extend %input-size;
+	}
+	&_e-mail{
+		@extend %border;
+		@extend %input-size;		
+	}
+	&_website{
+		@extend %border;
+		@extend %input-size;
+	}
+
+	&_des{
+		margin: 11px 0;
+		height: 220px;
+		@extend %border;
+	}
+}
+.form{
+	display: inline-block;
+}
+.enter-btn{
+	background-color: #d3c5b9;
+	border: 1px solid #dfd5cc;
+	border: 0px 1px 1px #d9ccc2;
+	padding: 7px 31px;
+	position: relative;
+	left: 219px;
+	@include set-font(bold 14px Arial Regular, #fff);
+}
+.textarea{
+	width: 322px;
+	position: relative;
+	top: -253px;
+	left: 360px;
+}
+
+.content--right{
+	position: absolute;
+	top: 300px;
+	left: 882px;
+	width: 255px;
+}
+
+.search{
+	&_title{
+		@include set-font(11px Arial Regular, #0a8ca3);		
+	}
+	&_box{
+		border: 3px solid #44afc2;
+		width: 200px;
+		height: 23px;
+	}
+	&_arrow{
+		background-color: #44afc2;
+		border: 6px solid #44afc2;
+		position: relative;
+		top: 9px;
+		left: -7px;
+		border-width: 6px 12px;
+		cursor: pointer;
+	}
+}
+
+.ads{
+	&_title{
+		padding: 30px 0 10px 0;
+		@include set-font(bold 24px LeagueGothic, #44afc2);
+	}
+	&_item{
+		float: left;
+		list-style: none;
+		width: 120px;
+		height: 45px;
+		margin: 3px 3px;
+		padding: 35px 0px;
+		text-align: center;
+		background-color: #e7e7e7;
+		@include set-font(bold 14px Arial Regular, #fff);
+		&--em{
+		@include set-font(bold 10px Arial Regular, #333);		
+		}
+	}
+}
+
+.recomend{
+	&_h3{
+		@extend .ads_title;
+		clear: left;
+	}
+	&_item{
+		list-style: none;
+		height: 80px;
+		padding: 10px 0;
+		border-bottom: 1px solid #eee;
+	}
+	&_img{
+		border: 3px solid #44afc2;
+		margin: 6px 10px;
+		float: left;
+	}
+	&_title{
+		@include set-font(13px Arial Regular, #0a8ca3);
+	}
+	&_article{
+		@include set-font(10px Arial Regular, #999);
+	}
+}
+
+.note{
+	&_title{
+		@extend .ads_title;	
+	}
+}
+.note1{
+		@include set-font(16px Arial Regular, #44afc2);
+}
+.note2{
+		@include set-font(11px Arial Regular, #999);	
+}
+.note3{
+		@include set-font(24px Arial Regular, #0a8ca3);
+}
+.note4{
+		@include set-font(12px Arial Regular, #555);	
+}
+
+.pic_title{
+	@extend .ads_title;		
+}

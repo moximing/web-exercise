@@ -1,0 +1,437 @@
+/* Portfolio Style 
+	- Version: 1.2.3 
+	- Author: @ostrenaud_clem 
+*/
+html {
+  font-size: 100%; }
+
+/*** Parameters ***/
+/*** Functions ***/
+/** 
+* Set font color according the background 
+* source: http://thesassway.com/intermediate/dynamically-change-text-color-based-on-its-background-with-sass 
+* @param {String} $background - background color - format accepted: hsla, rgb, # 
+* @return {String} #color 
+*/
+/*** Button mixins ***/
+/** 
+* Generate button style 
+* @param {String} - $name - required 
+* @param {String} - $background - required - format accepted: hsla, rgb, # 
+* @param {Strong} - $color - optionnal - format accepted: hsla, rgb, # 
+* If no $color specify, the 'set-text-color' function is called 
+* go check the _function.scss 
+*/
+/*** Button components ***/
+.button {
+  border: solid 1px #e0e0e0;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 300;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition-duration: .4s;
+  transition-property: color border; }
+
+@generate-button ('primary', $color-primary);
+.article {
+  padding: 0 10px;
+  background-color: #ebe4de;
+  height: 1650px; }
+
+.article--middle_title {
+  font: bold 24px LeagueGothic;
+  color: #333;
+  color: #0a8ca3;
+  padding: 30px; }
+.article--middle_content1 {
+  padding: 0 48px; }
+.article--middle_content2 {
+  padding-left: 150px; }
+.article--middle .content1_h3, .article--middle .content2_h3, .article--middle .content1_time, .article--middle .content2_time, .article--middle .content1_a, .article--middle .content2_a, .article--middle .content1_p, .article--middle .content2_p {
+  display: inline-block;
+  position: relative;
+  top: -60px; }
+.article--middle .content1_h3, .article--middle .content2_h3 {
+  font: 18px Arial Bold;
+  color: #1f1e1e;
+  padding-left: 18px; }
+.article--middle .content1_time, .article--middle .content2_time {
+  font: 14px Arial Regular;
+  color: #9c9b9b; }
+.article--middle .content1_a, .article--middle .content2_a {
+  font: 14px Arial Regular;
+  color: #1ea1b5; }
+.article--middle .content1_p, .article--middle .content2_p {
+  font: 10px Arial Regular;
+  color: #777;
+  width: 530px;
+  left: 100px;
+  text-align: justify; }
+.article--middle .content2_p {
+  width: 430px; }
+
+.hr {
+  margin-top: 50px;
+  border-top: 1px solid #faf8f7;
+  box-shadow: 0px 1px 1px #cec0b4; }
+
+.article--last_nombre, .article--last_e-mail, .article--last_website, .article--last_des {
+  width: 320px;
+  color: #f1ede9;
+  border: 1px solid #dfd5cc;
+  box-shadow: 0px 1px 1px #e3dad2; }
+
+.article--last_nombre, .article--last_e-mail, .article--last_website {
+  margin: 11px 0;
+  padding: 6px 0; }
+
+.article--last {
+  font: bold 14px Arial Regular;
+  color: #555;
+  padding: 0 20px; }
+  .article--last_title {
+    font: bold 30px LeagueGothic;
+    color: #333;
+    padding: 50px 0; }
+  .article--last_des {
+    margin: 11px 0;
+    height: 220px; }
+
+.form {
+  display: inline-block; }
+
+.enter-btn {
+  background-color: #d3c5b9;
+  border: 1px solid #dfd5cc;
+  border: 0px 1px 1px #d9ccc2;
+  padding: 7px 31px;
+  position: relative;
+  left: 219px;
+  font: bold 14px Arial Regular;
+  color: #fff; }
+
+.textarea {
+  width: 322px;
+  position: relative;
+  top: -253px;
+  left: 360px; }
+
+.content--right {
+  position: absolute;
+  top: 300px;
+  left: 882px;
+  width: 255px; }
+
+.search_title {
+  font: 11px Arial Regular;
+  color: #0a8ca3; }
+.search_box {
+  border: 3px solid #44afc2;
+  width: 200px;
+  height: 23px; }
+.search_arrow {
+  background-color: #44afc2;
+  border: 6px solid #44afc2;
+  position: relative;
+  top: 9px;
+  left: -7px;
+  border-width: 6px 12px;
+  cursor: pointer; }
+
+.ads_title, .recomend_h3, .note_title, .pic_title {
+  padding: 30px 0 10px 0;
+  font: bold 24px LeagueGothic;
+  color: #44afc2; }
+.ads_item {
+  float: left;
+  list-style: none;
+  width: 120px;
+  height: 45px;
+  margin: 3px 3px;
+  padding: 35px 0px;
+  text-align: center;
+  background-color: #e7e7e7;
+  font: bold 14px Arial Regular;
+  color: #fff; }
+  .ads_item--em {
+    font: bold 10px Arial Regular;
+    color: #333; }
+
+.recomend_h3 {
+  clear: left; }
+.recomend_item {
+  list-style: none;
+  height: 80px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee; }
+.recomend_img {
+  border: 3px solid #44afc2;
+  margin: 6px 10px;
+  float: left; }
+.recomend_title {
+  font: 13px Arial Regular;
+  color: #0a8ca3; }
+.recomend_article {
+  font: 10px Arial Regular;
+  color: #999; }
+
+.note1 {
+  font: 16px Arial Regular;
+  color: #44afc2; }
+
+.note2 {
+  font: 11px Arial Regular;
+  color: #999; }
+
+.note3 {
+  font: 24px Arial Regular;
+  color: #0a8ca3; }
+
+.note4 {
+  font: 12px Arial Regular;
+  color: #555; }
+
+.footer .social, .footer .Lorem, .footer .video {
+  width: 240px; }
+
+.footer .Contact_input--name, .footer .Contact_input--mail, .footer .Contact_textarea {
+  border: 1px solid #5ebcca;
+  background-color: transparent;
+  position: relative;
+  top: 1px;
+  left: -7px;
+  width: 180px;
+  height: 23px;
+  margin: 10px 0px; }
+
+.footer .Contact_name, .footer .Contact_mail, .footer .Contact_mes, .footer .Contact_btn {
+  border: 4px solid #5ebcca;
+  background-color: #5ebcca; }
+
+.footer {
+  display: flex;
+  background-image: url("../images/footer.jpg");
+  padding: 51px 90px;
+  position: relative;
+  top: -54px;
+  z-index: -1; }
+  .footer .social {
+    position: relative;
+    top: 0;
+    left: 10px; }
+    .footer .social_title, .footer .Lorem_title, .footer .video_title, .footer .Contact_title {
+      font: 26px LeagueGothic;
+      color: #fff;
+      padding: 40px 0px; }
+    .footer .social_content, .footer .Lorem_content1, .footer .Lorem_content2 {
+      font: 10px Arial Regular;
+      color: #333;
+      text-align: start; }
+    .footer .social_til, .footer .Lorem_til1, .footer .Lorem_til2 {
+      font: bold 10px Arial Bold;
+      color: #fff;
+      border-bottom: 1px solid #eee;
+      padding: 10px 0; }
+    .footer .social_icon {
+      position: relative;
+      top: 10px;
+      left: 65px; }
+  .footer .Lorem {
+    position: relative;
+    top: 12px;
+    left: 40px; }
+    .footer .Lorem_title {
+      padding: 30px 0; }
+    .footer .Lorem_content1 {
+      border-bottom: 1px solid #eee; }
+  .footer .video {
+    position: relative;
+    left: -111px;
+    top: 120px;
+    width: 220px;
+    height: 190px; }
+    .footer .video_title {
+      width: 180px;
+      position: relative;
+      top: 3px;
+      left: 65px; }
+  .footer .Contact {
+    width: 270px;
+    height: 220px;
+    position: relative;
+    top: 14px;
+    left: -88px; }
+    .footer .Contact_title {
+      padding: 31px 0; }
+    .footer .Contact_name {
+      font: 11px Arial Regular;
+      color: #057f81; }
+    .footer .Contact_mail {
+      border-width: 4px 9px;
+      font: 11px Arial Regular;
+      color: #057f81; }
+    .footer .Contact_mes {
+      font: 11px Arial Regular;
+      color: #057f81;
+      position: relative;
+      top: -62px; }
+    .footer .Contact_textarea {
+      width: 180px;
+      height: 75px; }
+    .footer .Contact_btn {
+      border-width: 4px 15px;
+      position: relative;
+      left: 191px; }
+
+.foot {
+  font: 12px Arial Regular;
+  color: #777;
+  font: 12px Arial Regular;
+  color: #777;
+  text-align: center;
+  position: relative; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.containter {
+  background-image: url("../icons/top.png");
+  background-repeat: no-repeat;
+  background-position: top center; }
+
+.topmenu {
+  position: relative;
+  top: 0;
+  right: 100px;
+  left: -125px;
+  bottom: 0;
+  float: right;
+  width: 25%; }
+  .topmenu_serch--grey {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    width: 68%;
+    background-color: #ebe4de;
+    border: 2px solid #ebe4de;
+    background-image: url("../icons/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 28px; }
+  .topmenu_p {
+    float: left;
+    color: #ddd;
+    font: 11px Arial Narrow; }
+
+.icon {
+  width: 29%;
+  height: 5%;
+  position: relative;
+  top: -102px;
+  right: 290px;
+  left: 300px;
+  bottom: 0;
+  display: inline-flex; }
+  .icon_home, .icon_mail {
+    width: 40%;
+    background-color: #5fb7c6;
+    margin-left: 5px;
+    padding-top: 100px;
+    text-align: center; }
+
+.content--left {
+  width: 753px;
+  clear: right;
+  position: relative;
+  left: 100px; }
+
+.header_container {
+  display: flex; }
+
+.header_item {
+  list-style: none;
+  padding-bottom: 20px; }
+  .header_item_title {
+    font: bold 18px LeagueGothic;
+    color: #0a8ca3; }
+  .header_item_content {
+    font: 12px Arial Narrow;
+    color: #aaacaf; }
+
+.divides {
+  color: #eee;
+  height: 40px;
+  padding: 0 6px; }
+
+.article--top {
+  display: flex; }
+
+.article_nav {
+  width: 110px;
+  height: 710px;
+  text-align: right;
+  position: relative;
+  top: 40px; }
+  .article_nav_li {
+    list-style: none;
+    margin: 12px 2px;
+    cursor: pointer; }
+    .article_nav_li_title {
+      font: bold 12px Arial Bold;
+      color: #333; }
+    .article_nav_li_content {
+      font: 10px Arial Regular;
+      color: #333; }
+  .article_nav .active {
+    font: bold 16px LeagueGothic;
+    color: #0a8ca3; }
+
+/*** Button components ***/
+.button {
+  border: solid 1px #e0e0e0;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 300;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition-duration: .4s;
+  transition-property: color border; }
+
+@generate-button ('primary', $color-primary);
+.arcitle--top--right-title {
+  margin: 10px 0;
+  text-align: center;
+  font: bold 22px Arial Bold;
+  color: #333; }
+.arcitle--top--right-content {
+  font: 12px Arial Regular;
+  color: #333;
+  padding: 2px 25px; }
+
+/*** Responsive ***/
+@media screen and (min-width: 768px) {
+  .container {
+    width: 518 px; }
+
+  body {
+    font-size: 1rem; } }
+@media screen and (min-width: 992px) {
+  .container {
+    width: 669 px; }
+
+  body {
+    font-size: 1.2rem; } }
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 809 px; }
+
+  body {
+    font-size: 1.5rem; } }
+
+/*# sourceMappingURL=main.css.map */

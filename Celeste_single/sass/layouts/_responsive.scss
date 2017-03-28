@@ -1,0 +1,38 @@
+/*** Responsive ***/ 
+
+// @media screen and (max-width:$tablet) {
+// 	.post-cover {
+// 		width: 100%;
+// 	}
+// }
+
+
+// @media screen and (max-width: $mobile) {
+// 	.nav-desktop {
+// 		display: none;
+// 	}
+
+// 	.nav-toggle {
+// 		display: block;
+// 	}
+// }
+
+@media screen and (min-width: 768px){
+	.container{
+		width: round(910 / 1350 * 768)px;
+	}
+	body{font-size:1rem;}
+}
+@media screen and (min-width: 992px){
+	.container{
+		width: round(910 / 1350 * 992) px;
+	}
+	body{font-size:1.2rem;}
+}
+@media screen and (min-width: 1200px){
+	.container{
+		width: round(910 / 1350 * 1200) px;
+	}
+	body{font-size:1.5rem;}
+}
+

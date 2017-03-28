@@ -1,0 +1,94 @@
+@charset"utf-8";
+
+@mixin relative-positioned($top,$right,$bottom,$left){
+	position: relative;
+	top:$top;
+	right:$right;
+	left:$left;
+	bottom:$bottom;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.containter{
+	background-image: url('../icons/top.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+//topmenu
+.topmenu{
+	@include relative-positioned(0,100px,0,-125px);
+	float: right;
+	width: round(percentage(34 / 135));
+	&_serch--grey{
+		margin:{
+			top: 40px;
+			right: 20px;
+			bottom: 15px;
+			}
+		width: round(percentage(230 / 340));
+		background-color: #ebe4de;
+		border: 2px solid #ebe4de;
+		background-image: url('../icons/search.png');
+		background-repeat: no-repeat;
+		background-position: right;
+		height: 28px;
+	}
+
+	&_p{
+		float: left;
+		color: #ddd;
+		font: 11px Arial Narrow;
+
+	}
+}
+.icon{
+	width: round(percentage(100 / 340));
+	height: round(percentage(100 / 2220)); 
+	@include relative-positioned(-102px,290px,0,300px);
+	display: inline-flex;
+	&_home{
+		width: round(percentage(40 / 100));
+		background-color: #5fb7c6;
+		margin-left: 5px;
+		padding-top: 100px;
+		text-align: center;
+		// @include transform(90deg);
+	}
+	&_mail{
+		@extend .icon_home;
+	}
+}
+
+
+//content--left_header
+.content--left{
+	width: 753px;
+	clear: right;
+	position: relative;
+	left: 100px;
+}
+.header_container{
+	display: flex;	
+}
+.header_item{
+	list-style: none;
+	padding-bottom: 20px;
+	&_title{
+		font: bold 18px LeagueGothic;
+		color: #0a8ca3;
+	}
+	&_content{
+		font: 12px Arial Narrow;
+		color: #aaacaf;
+	}
+}
+.divides{
+	color: #eee;
+	height: 40px;
+	padding: 0 6px;
+}
