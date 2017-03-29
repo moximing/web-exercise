@@ -4,7 +4,7 @@
 	display: flex;
 }
 .article_nav{
-	width: 110px;
+	width: round(percentage(110 / 755));
 	height: 710px;
 	text-align: right;
 	position: relative;

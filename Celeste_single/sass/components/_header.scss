@@ -1,13 +1,5 @@
 @charset"utf-8";
 
-@mixin relative-positioned($top,$right,$bottom,$left){
-	position: relative;
-	top:$top;
-	right:$right;
-	left:$left;
-	bottom:$bottom;
-}
-
 *{
 	padding: 0;
 	margin: 0;
@@ -17,6 +9,7 @@
 	background-image: url('../icons/top.png');
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-size: 100%;
 }
 
 //topmenu
@@ -31,12 +24,12 @@
 			bottom: 15px;
 			}
 		width: round(percentage(230 / 340));
+		height: 28px;
 		background-color: #ebe4de;
 		border: 2px solid #ebe4de;
 		background-image: url('../icons/search.png');
 		background-repeat: no-repeat;
 		background-position: right;
-		height: 28px;
 	}
 
 	&_p{
@@ -47,9 +40,8 @@
 	}
 }
 .icon{
-	width: round(percentage(100 / 340));
-	height: round(percentage(100 / 2220)); 
-	@include relative-positioned(-102px,290px,0,300px);
+	width: round(percentage(100 / 340)); 
+	@include relative-positioned(-102px,290px,0,100%);
 	display: inline-flex;
 	&_home{
 		width: round(percentage(40 / 100));
@@ -67,7 +59,7 @@
 
 //content--left_header
 .content--left{
-	width: 753px;
+	width: round(percentage(753 / 1349));
 	clear: right;
 	position: relative;
 	left: 100px;
@@ -89,6 +81,6 @@
 }
 .divides{
 	color: #eee;
-	height: 40px;
+	width: round(percentage(10 / 755));
 	padding: 0 6px;
 }

@@ -26,3 +26,11 @@
 	font: $font;
 	color: $color;
 }
+
+@mixin relative-positioned($top,$right,$bottom,$left){
+	position: relative;
+	top:$top;
+	right:$right;
+	left:$left;
+	bottom:$bottom;
+}

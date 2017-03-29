@@ -1,13 +1,13 @@
 %size{
-	width: 240px;
+	width: round(percentage(240 / 1145));
 }
 %input-style{
 	border: 1px solid #5ebcca;
 	background-color: transparent;
 	position: relative;
 	top: 1px;
-	left: -7px;
-	width: 180px;
+	left: -5px;
+	width:  round(percentage(180 / 270));
 	height: 23px;
 	margin: 10px 0px;
 }
@@ -18,6 +18,7 @@
 .footer{
 	display: flex;
 	background-image: url('../images/footer.jpg');
+	background-size: 100%;
 	padding: 51px 90px;
 	position: relative;
 	top: -54px;
@@ -74,18 +75,18 @@
 		position: relative;
 		left: -111px;
 		top: 120px;
-		width: 220px;
+		width: round(percentage(220 / 1222));
 		height: 190px;
 		&_title{
 			@extend .social_title;
-			width: 180px;
+			width: round(percentage(180 / 1200));
 			position: relative;
 			top: 3px;
 			left: 65px;
 		}
 	}
 	.Contact{
-		width: 270px;
+		width: round(percentage(270 / 1175));
 		height: 220px;
 		position: relative;
 		top: 14px;
@@ -113,11 +114,11 @@
 			@include set-font(11px Arial Regular, #057f81);
 			@extend %btn--input;
 			position: relative;
-			top: -62px;
+			top: -64px;
 		}
 		&_textarea{
 			@extend %input-style;
-			width: 180px;
+			width: round(percentage(180 / 270));
 			height: 75px;
 		}
 		&_btn{

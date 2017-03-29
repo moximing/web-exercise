@@ -1,11 +1,15 @@
 .arcitle--top--right{
+	width: round(percentage(640 / 736));
 	&-title{
 		margin: 10px 0;
 		text-align: center;
-		@include set-font(bold 22px Arial Bold, #333);
+		@include set-font(bold 1.375rem Arial Bold, #333);
 	}
 	&-content{
-		@include set-font(12px Arial Regular, #333);
+		@include set-font($font-size-smallest Arial Regular, #333);
 		padding: 2px 25px;
+	}
+	&_image{
+		max-width: 100%;
 	}
 }
