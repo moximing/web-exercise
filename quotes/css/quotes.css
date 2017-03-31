@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #00aaff;
+  opacity: 0.7;
+}
+
+.box {
+  background-color: #fff;
+  width: 600px;
+  margin: auto;
+  margin-top:100px; 
+  box-shadow:1px 1px 0 hsl(0, 0%, 95%),
+    2px 2px 0 hsl(0, 0%, 85%),
+    3px 3px 0 hsl(0, 0%, 75%),
+    4px 4px 0 hsl(0, 0%, 65%),
+    5px 5px 0 hsl(0, 0%, 50%),
+    7px 6px 0 hsl(0, 0%, 45%),
+    8px 8px 0 hsl(0, 0%, 30%);
+  opacity:0.8;
+  /*filter:alpha(opacity:0.8);*/
+}
+
+#btn {
+  clear: both;
+}
+
+.text {
+  padding: 20px;
+}
+
+.author {
+  float: right;
+  margin: 20px;
+}
+
+#btn2 {
+  float: right;
+  margin-top: 20px;
+  margin-right: 35px;
+  background-color: #00aaff;
+  width: 100px;
+  height: 35px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  font: bold 16px Times;
+  color: #fff;
+}
+
+#txt {
+	font-family: French Script MT;
+  font-size: 32px ;
+  font-weight: bold;
+  font-style: oblique;
+  color: #00aaff;
+  /*opacity:0;*/
+  /*filter:alpha(opacity:0);*/
+}
+
+#au {
+	font-family: BrockScript;
+	font-size: 16px;
+  font-style: normal;
+  color: #00aaff;
+}
+
+/*twitter-icon*/
+.twitter {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+}
+
+.twitter-del {
+	 background: url("Twitter.svg.png") no-repeat center;
+}
+
+.twitter > .twitter {
+    position: relative;
+    left: -438px;
+    border-right: 50px solid transparent;
+    -webkit-filter: drop-shadow(430px 0 0 #00aaff);
+    /*filter: drop-shadow(430px 0 0 #00aaff);*/   
+    /*-moz-filter: drop-shadow(430px 0 0 #00aaff);*/
+   /*-o-filter: drop-shadow(430px 0 0 #00aaff);*/
+}

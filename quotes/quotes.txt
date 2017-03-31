@@ -1,0 +1,34 @@
+[ {txt: "Be the change that you wish to see in the world.", au: "Mahatma Gandhi"},
+  {txt: "Things change. And friends leave. Life doesn't stop for anybody.", au: "Stephen Chbosky"},
+  {txt: "Nothing is so painful to the human mind as a great and sudden change.",
+    au: "Mary Shelley"},
+  {txt: "Grief does not change you, Hazel. It reveals you.", au: "John Green"},
+  {txt: "Education is the most powerful weapon which you can use to change the world.",
+    au: "Nelson Mandela"},
+  {txt: "The world as we have created it is a process of our thinking.It cannot be changed \
+  without changing our thinking.", au: "Albert Einstein"},
+  {txt: "Never doubt that a small group of thoughtful, committed, citizens can change the world.\
+  Indeed, it is the only thing that ever has.", au: "Margaret Mead"},
+  {txt: "Why do you go away? So that you can come back.So that you can see the place you came \
+  from with new eyes and extra colors.And the people there see you differently, too.Coming back \
+  to where you started is not the same as never leaving.", au: "Terry Pratchett"},      
+  {txt: "Everyone thinks of changing the world, but no one thinks of changing himself.", au: "Leo Tolstoy"},
+  {txt: "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\
+  The round pegs in the square holes. The ones who see things differently.\
+  They're not fond of rules. And they have no respect for the status quo.\
+  You can quote them, disagree with them, glorify or vilify them.About the only \
+  thing you can't do is ignore them.Because they change things. They push the human race forward.\
+  And while some may see them as the crazy ones, we see genius.Because the people who are crazy enough \
+  to think they can change the world,are the ones who do.", au: "Rob Siltanen"},
+  {txt: "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing \
+  myself.", au: "Jalaluddin Rumi"},
+  {txt: "To say goodbye is to die a little.",  au: "Raymond Chandler"},
+  {txt: "If people refuse to look at you in a new light and they can only see you for what you were,\
+  only see you for the mistakes you've made, if they don't realize that you are not your mistakes, \
+  then they have to go.",  au: "Steve Maraboli"},
+  {txt: "Love can change a person the way a parent can change a baby- awkwardly, and often with a great \
+  deal of mess.",  au: "Lemony Snicket"},
+  {txt: "Do I contradict myself? Very well, then, I contradict myself; I am large -- I contain\
+   multitudes.", au: "Walt Whitman"},
+  {txt: "They always say time changes things, but you actually have to change them yourself.",  au: "Andy Warhol"}
+]
