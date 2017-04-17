@@ -120,6 +120,7 @@
 			@extend %input-style;
 			width: round(percentage(180 / 270));
 			height: 75px;
+			resize: none;
 		}
 		&_btn{
 			@extend %btn--input;

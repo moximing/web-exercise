@@ -36,10 +36,12 @@ html {
   transition-property: color border; }
 
 @generate-button ('primary', $color-primary);
+.content {
+  display: inline-flex; }
+
 .article {
   padding: 0 10px;
-  background-color: #ebe4de;
-  height: 1650px; }
+  background-color: #ebe4de; }
 
 .article--middle_title {
   font: bold 24px LeagueGothic;
@@ -89,6 +91,7 @@ html {
 
 .article--last {
   width: 83%;
+  height: 432px;
   font: bold 14px Arial Regular;
   color: #555;
   padding: 0 20px; }
@@ -104,8 +107,9 @@ html {
     width: 222%; }
   .article--last_des {
     margin: 11px 0;
-    width: 99%;
-    height: 220px; }
+    width: 115%;
+    height: 213px;
+    resize: none; }
 
 .form {
   display: inline-block; }
@@ -127,10 +131,8 @@ html {
   left: 360px; }
 
 .content--right {
-  position: absolute;
-  top: 300px;
-  left: 66%;
-  width: 19%; }
+  margin: 100px 120px;
+  width: 22%; }
 
 .search_title {
   font: 11px Arial Regular;
@@ -288,7 +290,8 @@ html {
       top: -64px; }
     .footer .Contact_textarea {
       width: 67%;
-      height: 75px; }
+      height: 75px;
+      resize: none; }
     .footer .Contact_btn {
       border-width: 4px 15px;
       position: relative;
@@ -330,11 +333,12 @@ html {
     border: 2px solid #ebe4de;
     background-image: url("../icons/search.png");
     background-repeat: no-repeat;
-    background-position: right; }
+    background-position: right;
+    background-size: 14%; }
   .topmenu_p {
     float: left;
     color: #ddd;
-    font: 11px Arial Narrow; }
+    font: 0.7rem Arial Narrow; }
 
 .icon {
   width: 29%;
@@ -350,6 +354,10 @@ html {
     margin-left: 5px;
     padding-top: 100px;
     text-align: center; }
+    .icon_home--img {
+      max-width: 100%; }
+  .icon_mail--img {
+    max-width: 100%; }
 
 .content--left {
   width: 56%;

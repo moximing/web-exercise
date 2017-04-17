@@ -15,7 +15,9 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1490540301,,"wq"
+|2,0,1492420644,,"wq"
+:qw
+|2,0,1490694258,,"qw"
 
 # Search String History (newest to oldest):
 ? \<modified\>
@@ -28,51 +30,449 @@
 # Debug Line History (newest to oldest):
 
 # 寄存器:
+"w	CHAR	0
+	�kb�kr
+|3,0,32,0,1,0,1492420546,"�kb�kr"
 ""-	CHAR	0
 	#
-|3,1,36,0,1,0,1490540217,"#"
+|3,1,36,0,1,0,1492420570,"#"
 
 # 文件标记:
-'0  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
-|4,48,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
-'1  47  0  ~/.git/COMMIT_EDITMSG
-|4,49,47,0,1490108620,"~/.git/COMMIT_EDITMSG"
-'2  18  1  ~/.git/COMMIT_EDITMSG
-|4,50,18,1,1490106817,"~/.git/COMMIT_EDITMSG"
-'3  16  1  ~/.git/COMMIT_EDITMSG
-|4,51,16,1,1490106817,"~/.git/COMMIT_EDITMSG"
+'0  22  0  ~/.git/COMMIT_EDITMSG
+|4,48,22,0,1492420645,"~/.git/COMMIT_EDITMSG"
+'1  37  0  ~/.git/COMMIT_EDITMSG
+|4,49,37,0,1490943237,"~/.git/COMMIT_EDITMSG"
+'2  37  0  ~/.git/COMMIT_EDITMSG
+|4,50,37,0,1490943237,"~/.git/COMMIT_EDITMSG"
+'3  42  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,51,42,0,1490942286,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+'4  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,52,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+'5  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,53,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+'6  60  0  ~/.git/COMMIT_EDITMSG
+|4,54,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
+'7  60  0  ~/.git/COMMIT_EDITMSG
+|4,55,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
+'8  60  0  ~/.git/COMMIT_EDITMSG
+|4,56,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
+'9  60  0  ~/.git/COMMIT_EDITMSG
+|4,57,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
 
 # 跳转列表 (从新到旧):
+-'  22  0  ~/.git/COMMIT_EDITMSG
+|4,39,22,0,1492420645,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1492420432,"~/.git/COMMIT_EDITMSG"
+-'  37  0  ~/.git/COMMIT_EDITMSG
+|4,39,37,0,1490943237,"~/.git/COMMIT_EDITMSG"
+-'  37  0  ~/.git/COMMIT_EDITMSG
+|4,39,37,0,1490943237,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1490943203,"~/.git/COMMIT_EDITMSG"
+-'  42  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,42,0,1490942286,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  42  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,42,0,1490942286,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  42  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,42,0,1490942286,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  42  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,42,0,1490942286,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  1  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,1,0,1490942247,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  1  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,1,0,1490942247,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  1  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,1,0,1490942247,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  1  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,1,0,1490942247,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  197  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,197,0,1490941908,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  1  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,1,0,1490941639,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  1  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,1,0,1490941639,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  1  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,1,0,1490941639,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  1  0  /e/front-end/exercise/.git/COMMIT_EDITMSG
+|4,39,1,0,1490941639,"/e/front-end/exercise/.git/COMMIT_EDITMSG"
+-'  60  0  ~/.git/COMMIT_EDITMSG
+|4,39,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
+-'  60  0  ~/.git/COMMIT_EDITMSG
+|4,39,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
+-'  60  0  ~/.git/COMMIT_EDITMSG
+|4,39,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
+-'  60  0  ~/.git/COMMIT_EDITMSG
+|4,39,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
+-'  60  0  ~/.git/COMMIT_EDITMSG
+|4,39,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
+-'  60  0  ~/.git/COMMIT_EDITMSG
+|4,39,60,0,1490694284,"~/.git/COMMIT_EDITMSG"
+-'  47  0  ~/.git/COMMIT_EDITMSG
+|4,39,47,0,1490694033,"~/.git/COMMIT_EDITMSG"
+-'  47  0  ~/.git/COMMIT_EDITMSG
+|4,39,47,0,1490694033,"~/.git/COMMIT_EDITMSG"
+-'  47  0  ~/.git/COMMIT_EDITMSG
+|4,39,47,0,1490694033,"~/.git/COMMIT_EDITMSG"
+-'  47  0  ~/.git/COMMIT_EDITMSG
+|4,39,47,0,1490694033,"~/.git/COMMIT_EDITMSG"
+-'  47  0  ~/.git/COMMIT_EDITMSG
+|4,39,47,0,1490694033,"~/.git/COMMIT_EDITMSG"
+-'  47  0  ~/.git/COMMIT_EDITMSG
+|4,39,47,0,1490694033,"~/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
 -'  55  0  ~/Celeste_single/.git/COMMIT_EDITMSG
 |4,39,55,0,1490540301,"~/Celeste_single/.git/COMMIT_EDITMSG"
 -'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
 |4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
--'  47  0  ~/.git/COMMIT_EDITMSG
-|4,39,47,0,1490108620,"~/.git/COMMIT_EDITMSG"
--'  47  0  ~/.git/COMMIT_EDITMSG
-|4,39,47,0,1490108620,"~/.git/COMMIT_EDITMSG"
--'  38  0  ~/.git/COMMIT_EDITMSG
-|4,39,38,0,1490106925,"~/.git/COMMIT_EDITMSG"
--'  38  0  ~/.git/COMMIT_EDITMSG
-|4,39,38,0,1490106925,"~/.git/COMMIT_EDITMSG"
--'  18  1  ~/.git/COMMIT_EDITMSG
-|4,39,18,1,1490106858,"~/.git/COMMIT_EDITMSG"
--'  18  1  ~/.git/COMMIT_EDITMSG
-|4,39,18,1,1490106858,"~/.git/COMMIT_EDITMSG"
--'  16  1  ~/.git/COMMIT_EDITMSG
-|4,39,16,1,1490106817,"~/.git/COMMIT_EDITMSG"
--'  16  1  ~/.git/COMMIT_EDITMSG
-|4,39,16,1,1490106817,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1490106736,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1490106736,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1490106736,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1490106736,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Celeste_single/.git/COMMIT_EDITMSG
+|4,39,1,0,1490540142,"~/Celeste_single/.git/COMMIT_EDITMSG"
 
 # 文件内的标记历史记录 (从新到旧):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1492420631	0
+	"	22	0
+	^	47	0
+	.	22	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	42	0
+	+	43	0
+	+	44	0
+	+	46	0
+	+	1	17
+	+	4	0
+	+	47	0
+	+	29	0
+	+	47	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	59	1
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	35	0
+	+	34	0
+	+	36	0
+	+	37	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	11	0
+	+	22	0
+
+> /e/front-end/exercise/.git/COMMIT_EDITMSG
+	*	1490942284	0
+	"	42	0
+	.	42	0
+	+	131	0
+	+	132	0
+	+	133	0
+	+	134	0
+	+	135	0
+	+	136	0
+	+	137	0
+	+	138	0
+	+	139	0
+	+	140	0
+	+	141	0
+	+	142	0
+	+	143	0
+	+	144	0
+	+	145	0
+	+	146	0
+	+	147	0
+	+	148	0
+	+	149	0
+	+	150	0
+	+	151	0
+	+	152	0
+	+	153	0
+	+	154	0
+	+	155	0
+	+	156	0
+	+	157	0
+	+	158	0
+	+	159	0
+	+	160	0
+	+	161	0
+	+	162	0
+	+	163	0
+	+	164	0
+	+	165	0
+	+	166	0
+	+	167	0
+	+	168	0
+	+	169	0
+	+	170	0
+	+	171	0
+	+	172	0
+	+	173	0
+	+	174	0
+	+	175	0
+	+	176	0
+	+	177	0
+	+	178	0
+	+	179	0
+	+	180	0
+	+	181	0
+	+	182	0
+	+	183	0
+	+	184	0
+	+	185	0
+	+	186	0
+	+	187	0
+	+	188	0
+	+	189	0
+	+	190	0
+	+	191	0
+	+	192	0
+	+	193	1
+	+	194	0
+	+	193	0
+	+	195	0
+	+	196	0
+	+	197	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
 
 > ~/Celeste_single/.git/COMMIT_EDITMSG
 	*	1490540295	0
@@ -121,44 +521,3 @@
 	+	52	0
 	+	53	0
 	+	54	0
-
-> ~/.git/COMMIT_EDITMSG
-	*	1490108612	0
-	"	47	0
-	^	47	0
-	.	47	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	32	0
-	+	33	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	38	0
-	+	39	0
-	+	40	0
-	+	42	0
-	+	43	0
-	+	44	0
-	+	46	0
-	+	1	17
-	+	4	0
-	+	47	0
-	+	29	0
-	+	47	0

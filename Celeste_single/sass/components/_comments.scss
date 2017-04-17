@@ -1,8 +1,10 @@
 @charset"utf-8";
+.content{
+	display: inline-flex;
+}
 .article{
 	padding: 0 10px;
 	background-color: #ebe4de;
-	height: 1650px;
 }
 .article--middle{
 	&_title{
@@ -87,6 +89,7 @@
 
 .article--last{
 	width: round(percentage(530 / 639));
+	height: 432px;
 	@include set-font(bold 14px Arial Regular, #555);
 	padding: 0 20px;
 	&_title{
@@ -111,8 +114,9 @@
 
 	&_des{
 		margin: 11px 0;
-		width: round(percentage(320 / 324));
-		height: 220px;
+		width: round(percentage(320 / 278));
+		height: 213px;
+		resize: none;
 		@extend %border;
 	}
 }
@@ -136,10 +140,8 @@
 }
 
 .content--right{
-	position: absolute;
-	top: 300px;
-	left: 66%;
-	width: round(percentage(255 / 1349));
+	margin: 100px 120px;
+	width: round(percentage(255 / 1159));
 }
 
 .search{

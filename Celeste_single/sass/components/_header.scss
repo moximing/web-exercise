@@ -30,12 +30,13 @@
 		background-image: url('../icons/search.png');
 		background-repeat: no-repeat;
 		background-position: right;
+		background-size: 14%;
 	}
 
 	&_p{
 		float: left;
 		color: #ddd;
-		font: 11px Arial Narrow;
+		font: 0.7rem Arial Narrow;
 
 	}
 }
@@ -49,10 +50,15 @@
 		margin-left: 5px;
 		padding-top: 100px;
 		text-align: center;
-		// @include transform(90deg);
+		&--img{
+			max-width: 100%;
+		}
 	}
 	&_mail{
 		@extend .icon_home;
+		&--img{
+			max-width: 100%;
+		}
 	}
 }
 
