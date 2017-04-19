@@ -149,3 +149,51 @@ git push -u origin master
 Pwd
 git clone https://github.com/ruanyf/jstraining.git
 git clone git@github.com:ruanyf/react-demos.git
+pwd
+cd..
+e:
+git status
+git check-ignore -v id_rsa
+git check-ignore -v react-demos
+git push -u web-exercise master
+git remote add web-exercise git@github.com:moximing/web-exercise.git
+git push -u web-exercise master
+git add .gitignore
+git commit 
+git push web-exercise master
+git status
+git commit
+git push web-exercise
+git push web-exercise master
+git push web-exercise master
+git status
+git add
+git add .
+git add .
+git commit
+git push web-exercise master
+rm .ssh
+rm -rf[.ssh]
+rm -rf .ssh
+git status
+git commit
+git push web-exercise master
+git push web-exercise master
+git push web-exercise master
+git remote add origin git@github.com:moximing/node-ex.git
+git remote add node-ex git@github.com:moximing/node-ex.git
+cd nodejs
+cd
+cd nodejs
+pwd
+cd e/nodejs
+cd e:/nodejs
+pwd
+git inite
+git init
+git add .
+git add .
+git commit
+git push -u node-ex master
+git remote add node-ex git@github.com:moximing/node-ex.git
+git push -u node-ex master

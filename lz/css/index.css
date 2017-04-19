@@ -1,0 +1,592 @@
+/*part three*/
+.site-menu{
+	width: 1200px;
+	margin: auto;
+}
+
+.site-menu li{
+	list-style: none;
+	height: 48px;
+	float: left;
+}
+
+.site-menu li a.allProducts {
+	padding-right: 70px;
+}
+
+.site-menu li a.current {
+	font-weight: 600;
+	color: #D93600;
+	font-weight: bold;
+}
+
+.site-menu li a {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 48px;
+	height: 48px;
+	padding: 0 30px;
+	display: inline-block;
+	zoom: 1;
+}
+
+.club {
+	font-size: 12px;
+	color: #ddd;
+	margin-top: 30px;
+	width: 150px;
+	float: right;
+}
+
+.homeLayout {
+	position: relative;
+}
+
+.category ul {
+	list-style: none;
+	position: absolute;
+	top: 48px;
+	left: 75px;
+}
+
+.category ul li {
+	border-top: 1px solid #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 7px;
+	font-size: small;
+	position: relative;
+	z-index: 1;
+	max-zoom: 1;
+	height: 53px;
+}
+
+.category ul li h6 {
+	height: 13px;
+	color: #D93600;
+}
+
+.category ul li.odd {
+	background-color: #fafafa;
+}
+
+.category ul li.even {
+	background-color: #f0f0f0;
+}
+
+.rightBar {
+	width: 240px;
+	height: 400px;
+	float: right;
+	list-style: none;
+	position: absolute;
+	top: 48px;
+	right: 75px;
+	z-index: 9;
+}
+
+.rightBar ul li {
+	background: url(https://www.lezhi365.com.cn/web/templates/default/images/CP.png) no-repeat;
+	background-color: #fafafa;
+	float: left;
+	list-style: none;
+	padding: 52px 10px 0 10px;
+	z-index: 1;
+	max-zoom: 1;
+}
+
+.rightBar ul li.b1 {
+	background-position: 0 0;
+	margin-left: 40px;
+}
+
+.rightBar .b2 {
+	background-position: -70px 0;
+}
+
+.rightBar .b3 {
+	background-position: -140px 0;
+}
+
+.rightBar .buy .latestBuy {
+	line-height: 30px;
+	background: #f1f1f1;
+	color: #777;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.rightBar .buy .latestBuy i {
+	line-height: 16px;
+	color: #FFF;
+	background-color: #CB0100;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: auto 8px auto 5px;
+	border-radius: 2px;
+	font-style: normal;
+}
+
+.rightBar .buy {
+	background-color: #fff;
+	margin-left: 40px;
+}
+
+.rightBar .buy .picture {
+	background-image: url(https://www.lezhi365.com.cn/data/upload/shop/groupbuy/1/1_05400581797602343_small.jpg);
+	background-color: #fff;
+	width: 180px;
+	height: 185px;
+	position: relative;
+	top: -20px;
+	left: 20px;
+}
+
+.rightBar .buy .prev {
+	position: relative;
+	top: 70px;
+	color: #D93600;
+	opacity: 0.3;
+}
+
+.rightBar .buy .picture .next {
+	position: relative;
+	top: 70px;
+	left: 166px;
+	color: #D93600;
+	opacity: 0.3;
+}
+
+.rightBar .buy .prev:hover,
+.rightBar .buy .picture .next:hover {
+	opacity: 1;
+}
+
+.rightBar .buy .picture .newProduct {
+	position: relative;
+	top: 100px;
+	left: -10px;
+}
+
+.newProduct p {
+	font-size: small;
+}
+
+.newProduct .cost {
+	font-weight: bold;
+	color: #d93600;
+}
+
+.newProduct .buyBtn {
+	position: relative;
+	right: -55px;
+}
+
+.rightBar .options {
+	background-color: #E2E2E2;
+	width: 200px;
+	height: auto;
+	margin-left: 40px;
+	padding: 4px 20px
+}
+
+.rightBar .optionsCon {
+	background-color: #fff;
+	width: 200px;
+	height: 92px;
+	margin-left: 40px;
+}
+
+#ho button {
+	border: solid 2px #D93600;
+	border-radius: 4px;
+	background-color: #fff;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #D93600;
+	margin-left: 45px;
+	margin-top: 15px;
+}
+
+#ho button:hover {
+	background-color: #D93600;
+	color: #fff;
+}
+
+#ho a {
+	font-family: arial;
+	font-size: 12px;
+	color: #bbb;
+	margin-left: 55px;
+	margin-bottom-top: 15px;
+}
+
+#me a {
+	margin-left: 15px;
+}
+
+/*part three end*/
+.saleLayout .leftSale {
+	width: 80%;
+}
+
+.saleLayout .bargin {
+	width: 20%;
+	float: right;
+	position: relative;
+	top: -52px;
+	left: 20px;
+}
+
+.saleLayout ul li {
+	border-style: solid;
+	border-width: 0 0 2px 0;
+	border-color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.saleLayout li {
+	list-style: none;
+	border-right: dotted 1px #F0F0F0;
+	border-bottom: dotted 1px #F0F0F0;
+	margin-top: 15px;
+	padding: 0 21px;
+	margin-left: -12px;
+	float: left;
+}
+
+.saleLayout  img {
+	max-height: 160px;
+	max-width: 160px;
+	min-height: 160px;
+}
+
+.saleLayout  .proName {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 160px;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #555;
+}
+
+.saleLayout  .proName a {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #555;
+}
+
+.saleLayout  .proName a:hover {
+	color: #D93600;
+}
+
+.saleLayout  .proCost {
+	font-weight: bolder;
+	font-family: arial;
+	font-size: 12px;
+	line-height: 13px;
+	color: #C00;
+	padding-bottom: 10px;
+}
+
+.saleLayout .bargin .title {
+	height: 40px;
+	border-bottom: solid 1px #D93600;
+	color: #D93600;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 38px;
+}
+
+.saleLayout .bargin em {
+	font-weight: 600;
+	color: #e4393c;
+	margin: 0 2px;
+}
+
+.saleLayout .timeCut {
+	margin: 0px 0 0px 0;
+	padding: 2px;
+	text-align: right;
+}
+
+.saleLayout .rightPic {
+	margin-top: -10px;
+	max-height: 150px;
+	max-width: 160px;
+	margin: -10px auto;
+}
+
+.saleLayout .rightPic .prev {
+	position: relative;
+	top: 70px;
+	color: #D93600;
+	left: -39px;
+}
+
+.saleLayout .rightPic .next {
+	position: relative;
+	top: 70px;
+	left: 166px;
+	color: #D93600;
+}
+
+.saleLayout .rightCost em {
+	font: 600 16px/24px Verdana;
+	color: #C00;
+	width: 200px;
+	height: 30px;
+	position: relative;
+	top: 45px;
+}
+
+.saleLayout .rightCost span {
+	font-size: 12px;
+	color: #AAA;
+	font-weight: normal;
+	text-decoration: line-through;
+	margin-left: 6px;
+	position: relative;
+	top: 45px;
+}
+
+.saleLayout .discount {
+	color: #FFF;
+	background: url(../img/siller_icon.png) no-repeat;
+	text-align: center;
+	width: 58px;
+	height: 24px;
+	padding: 28px 0 30px 0;
+	position: absolute;
+	bottom: -30px;
+	right: 20px;
+	z-index: 1;
+}
+
+.saleLayout .bargin .proName {
+	position: relative;
+	top: 45px;
+}
+
+.security {
+	width: 1200px;
+	margin: 10px auto;
+}
+
+/*part four end*/
+.series .rightAds {
+	float: left;
+	width: 212px;
+}
+
+.series .rightAds img {
+	max-width: 212px;
+}
+
+.series .rightAds .title span {
+	font-family: Tahoma;
+	font-size: 18px;
+	background: #FFF;
+	color: #e4393c;
+	
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	margin: auto 8px auto 2px;
+	border: solid 2px;
+	border-radius: 18px;
+}
+
+.series .rightAds .title p {
+	font: 22px/40px "microsoft yahei";
+	color: #555;
+	display: inline-block;
+	zoom: 1;
+}
+
+.series .rightAds .type ul {
+	background-color: #ddd;
+	width: auto;
+	height: 216px;
+}
+
+.series .rightAds .type li {
+	list-style: none;
+	display: inline-block;	/*display: inline;*/
+	zoom: 1;
+	margin: 25px;
+}
+
+.series .middleAds {
+	width: 776px;
+	float: left;
+}
+
+.series .middleAds .title {
+
+	/*position: relative;*/
+
+	/*right: 1px;*/
+
+	/*border: 2px solid #E4393C;*/
+
+	/*box-sizing: border-box;*/
+
+	/*border-bottom: 2px solid #fff;*/
+	height: 40px;
+}
+
+.series .middleAds .title span a {
+	position: relative;
+	left: 578px;
+	padding: 5px 64px 20px 62px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 38px;
+	font-family: microsoft yahei;
+	color: #e4393c;
+	border: 2px solid #fff;
+	border-bottom: 2px solid #E4393C;
+}
+
+.series .middleAds .Ads img {
+	max-height: 160px;
+	max-width: 160px;
+	min-height: 160px;
+	margin: auto;
+	margin-top: 15px;
+	z-index: auto;
+}
+
+.series .middleAds .Ads ul li {
+	list-style: none;
+	width: 193px;
+	height: 248px;
+	float: left;
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	border-color: #DDD;
+	text-align: center;
+}
+
+.series .middleAds .Ads .proName a {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #555;
+	padding: 0px 5px;
+}
+
+.series .middleAds .Ads .proName a:hover {
+	color: #D93600;
+}
+
+.series .middleAds .Ads .proCost {
+	font-weight: bolder;
+	font-family: arial;	/*font-size: 12px;*/
+	line-height: 13px;
+	color: #C00;
+	padding-bottom: 10px;
+}
+
+.series .leftAds {
+	float: left;
+	width: 212px;
+	position: relative;
+	top: 0px;
+}
+
+.series .leftAds ul {
+	list-style: none;
+	background-color: #FFF;
+	width: 212px;
+	height: 258px;
+	margin-top: 50px;
+}
+
+.series .leftAds ul li {
+	padding: 5px;
+	float: left;
+	border-bottom: solid 1px #EEE;
+}
+
+.series .leftAds ul li img {
+	max-width: 96px;
+	max-height: 32px;
+}
+
+.series .leftAds .Ads img {
+	margin-top: -13px;
+	margin-left: -5px;
+	width: 212px;
+	height: 241px;
+}
+
+.rightNavBar {
+	display: block;
+	width: 39px;
+	height: 396px;
+	position: fixed;
+	bottom: 100px;
+	left: 50%;
+	margin-left: -660px;
+	display: none;
+}
+
+.rightNavBar ul li a {
+	width: 39px;
+	height: 35px;
+	font-size: smaller;
+	padding: 1px 0px 0px 9px;
+	margin-top: 1px;
+	background: url("https://www.lezhi365.com.cn/web/templates/default/images/home-nav-icon.png") no-repeat;
+}
+
+.rightNavBar ul li a:hover {
+	background: url("https://www.lezhi365.com.cn/web/templates/default/images/home-nav-icon-hover2.png") no-repeat;
+}
+
+.rightNavBar > ul > li.active > a,
+.rightNavBar > ul > li.active > a:focus {
+	float: left;
+	margin: 0;
+	font-weight: bold;
+	background: url("https://www.lezhi365.com.cn/web/templates/default/images/home-nav-icon-hover.png") no-repeat;
+}
+
+.rightNavBar ul li a.navbar1 {
+	background-position: 0 0px;
+}
+
+.rightNavBar ul li a.navbar2 {
+	background-position: 0 -34px;
+}
+
+.rightNavBar ul li a.navbar3 {
+	background-position: 0 -68px;
+}
+
+.rightNavBar ul li a.navbar4 {
+	background-position: 0 -102px;
+}
+
+.rightNavBar ul li a.navbar5 {
+	background-position: 0 -136px;
+}
+
+.rightNavBar ul li a.navbar6 {
+	background-position: 0 -170px;
+}
+
+.rightNavBar ul li a.navbar7 {
+	background-position: 0 -204px;
+}
+
+/*part five end*/

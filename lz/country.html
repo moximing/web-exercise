@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>乐值网-让消费者消费的幸福_乐购天下,尊享所值搜索</title>
+<meta name="description" content="乐值网-让消费者消费的幸福_乐购天下,尊享所值搜索">
+<meta name="keywords" content="乐值网-让消费者消费的幸福_乐购天下,尊享所值搜索">
+<link rel="stylesheet" type="text/css" href="css/Mbootstrap.css" />
+<script rel="stylesheet" type="text/javascript" src="js/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js" ></script>
+<script type="text/javascript" src="js/country.js" ></script>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="css/header.css" />
+<link rel="stylesheet" type="text/css" href="css/footer.css" />
+<link rel="stylesheet" type="text/css" href="css/country.css" />
+</head>
+<body>
+	<div id="share" class="share">
+		<span id="shareButton" class="shareButton">分享</span>
+		<div id="slide">
+			<div class="shareTop">分享到</div>
+			<ul>
+				<li><a href="#">一键分享</a></li>
+				<li><a href="#">新浪微博</a></li>
+				<li><a href="#">微信</a></li>
+				<li><a href="#">腾讯微博</a></li>
+				<li><a href="#">开心网</a></li>
+				<li><a href="#">百度贴吧</a></li>
+				<li><a href="#">百度新首页</a></li>
+				<li><a href="#">和讯微博</a></li>
+				<li><a href="#">QQ空间</a></li>
+				<li><a href="#">百度云收藏</a></li>
+				<li><a href="#">人人网</a></li>
+				<li><a href="#">百度相册</a></li>
+				<li><a href="#">腾讯朋友</a></li>
+				<li><a href="#">豆瓣网</a></li>
+				<li><a href="#">QQ好友</a></li>
+				<li><a href="#">百度中心</a></li>
+			</ul>
+			<div class="shareBottom"><a href="#"><span class="andMore">+</span>更多...</a></div>
+		</div>
+	</div>
+
+    <div class="chatBar">
+		<div class="chat"><a href="#">IM聊天</a></div>
+	</div>
+	
+	<nav class="navbar navbar-default">          <!--未设置有效链接-->
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+	      <span class="navbar-brand">您好！欢迎来到<a  href="#" title="首页" alt="首页"> 乐值网-让消费者消费的幸福_乐购天下,尊享所值</a></span>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+		    <ul class="nav navbar-nav">
+		      <li><a href="#" data-toggle="modal" data-target="#logIn">登录</a></li>
+		      <li><a href="#" data-toggle="modal" data-target="#signUp">注册</a></li>
+		    </ul>
+		    
+		    <!-- Modal -->
+		    <div class="modal fade" id="logIn" role="dialog">
+			    <div class="modal-dialog">
+			      <!-- Modal content-->
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h4 class="modal-title">用户登录</h4>
+			        </div>
+			        <div class="modal-body">
+			          <form role="form">
+					    <div class="form-group">
+					      <label for="phone">手机号:</label>
+					      <input type="phone" class="form-control" id="phone" placeholder="请输入您的手机号">
+					    </div>
+					    <div class="form-group">
+					      <label for="pwd">密码:</label>
+					      <input type="password" class="form-control" id="pwd" placeholder="请输入您的密码">
+					    </div>
+					    <div class="checkbox">
+					      <label><input type="checkbox"> Remember me</label>
+					    </div>
+					    <!--如何添加验证码-->
+					    <button type="login" class="btn btn-default">登录</button>
+					  </form>
+			        </div>
+			      </div>
+			    </div>
+			</div>
+			<!-- modal -->
+			<div class="modal fade" id="signUp" role="dialog">
+			    <div class="modal-dialog">
+			      <!-- Modal content-->
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h4 class="modal-title">用户注册</h4>
+			        </div>
+			        <div class="modal-body">
+			          <form role="form">
+					    <div class="form-group">
+					      <label for="phone">手机号:</label>
+					      <input type="phone" class="form-control" id="phone" placeholder="请输入您的手机号">
+					    </div>
+					    <div class="form-group">
+					      <label for="pwd">密码:</label>
+					      <input type="password" class="form-control" id="pwd" placeholder="请输入您的密码">
+					    </div>
+					    <div class="form-group">
+					      <label for="pwd">确认密码:</label>
+					      <input type="password" class="form-control" id="pwd" placeholder="请再次输入您的密码">
+					    </div>
+					    <button type="signin" class="btn btn-default">注册</button>
+					  </form>
+			        </div>
+			      </div>
+			      
+			    </div>
+			</div>
+		    
+		    <ul class="nav navbar-nav navbar-right">
+		      <li><a href="#"> 手机触屏版</a></li>
+		   
+	      	  <li class="dropdown">				<!--改为让鼠标移上去就显示下拉框-->
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">免费开店
+		        <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">招商入驻</a></li>
+		          <li><a href="#">商家登录</a></li>
+		        </ul>
+		      </li>
+		      
+		      <li class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">我的订单
+		        <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">待付款订单</a></li>
+		          <li><a href="#">待确认收货</a></li>
+		          <li><a href="#">待评价交易</a></li>
+		        </ul>
+		      </li>
+		      
+		      <li class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">我的收藏
+		        <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">商品收藏</a></li>
+		          <li><a href="#">店铺收藏</a></li>
+		        </ul>
+		      </li>
+		      
+		      <li class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">客户服务
+		        <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">帮助中心</a></li>
+		          <li><a href="#">售后服务</a></li>
+		          <li><a href="#">客服中心</a></li>
+		        </ul>
+		      </li>
+		      
+		      <li><a href="#"> APP下载</a></li>
+		    </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!--part one end-->
+	
+	<div class="header-wrap">
+		<div class="logo">
+			<a href="#"><img src="img/logo.png" alt="logo" /></a>
+		</div>
+		<div class="location">		<!--未设置定位切换-->
+			<p><a href="">全国</a></p>
+			<p><a data-toggle="modal" href="#city">切换城市</a></p>
+		</div>
+
+		<!-- modal city-->
+		<div class="modal fade" id="city" role="dialog">
+			<div class="modal-dialog">
+				<!-- modal-content -->
+				<div class="modal-content">
+					<div class="modal-body"> 
+						<dl>
+							<dt>全囯</dt>
+							<a href="#">全国</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>北京</dt>
+							<a data-toggle="modal" href="#Beijing">北京</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>天津</dt>
+							<a href="">天津</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>河北省</dt>
+							<a href="">石家庄</a>
+							<a href="">唐山</a>
+							<a href="">秦皇岛</a>
+							<a href="">邯郸</a>
+							<a href="">邢台</a>
+							<a href="">保定</a>
+							<a href="">张家口</a>
+							<a href="">承德</a>
+							<a href="">衡水</a>
+							<a href="">廊坊</a>
+							<a href="">沧州</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>山西省</dt>
+							<a href="">太原</a>
+							<a href="">大同</a>
+							<a href="">阳泉</a>
+							<a href="">长治</a>
+							<a href="">晋城</a>
+							<a href="">朔州</a>
+							<a href="">晋中</a>
+							<a href="">运城</a>
+							<a href="">忻州</a>
+							<a href="">临汾</a>
+							<a href="">吕梁</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>内蒙古自治区</dt>
+							<a href="">呼和浩特</a>
+							<a href="">包头</a>
+							<a href="">乌海</a>
+							<a href="">赤峰</a>
+							<a href="">通辽</a>
+							<a href="">鄂尔多斯</a>
+							<a href="">呼伦贝尔</a>
+							<a href="">巴彦淖尔</a>
+							<a href="">乌兰察布</a>
+							<a href="">兴安盟</a>
+							<a href="">锡林郭勒盟</a>
+							<a href="">阿拉善盟</a>
+							<hr>
+						</dl>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- modal city end -->
+
+		<!-- modal Beijing-->
+		<div class="modal fade" id="Beijing" role="dialog">
+			<div class="modal-dialog">
+				<!-- modal-content -->
+				<div class="modal-content">
+					<div class="modal-body">
+						<a href="#">东城区</a>
+						<a href="#">西城区</a>
+						<a href="#">朝阳区</a>
+						<a href="#">丰台区</a>
+						<a href="#">石景山区</a>
+						<a href="#">海淀区</a>
+						<a href="#">门头沟区</a>
+						<a href="#">房山区</a>
+						<a href="#">通州区</a>
+						<a href="#">顺义区</a>
+						<a href="#">昌平区</a>
+						<a href="#">大兴区</a>
+						<a href="#">怀柔区</a>
+						<a href="#">平谷区</a>
+						<a href="#">密云县</a>
+						<a href="#">延庆县</a>
+						<a href="#">其他</a>
+						<hr>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- modal end -->
+
+		<div class="search">
+			<div class="searchBar">
+				<ul  class="nav nav-pills">		<!--未改变搜索框的保留字-->
+					<li title="请输入您要搜索的兑付宝商品关键字" class="active"><a data-toggle="pill" href="#home">
+						兑付宝商城</a></li>
+					<li title="请输入您要搜索的商品关键字"><a data-toggle="pill" href="#menu1">乐值商城</a></li>
+					<li title="请输入您要搜索的联盟店铺关键字"><a data-toggle="pill" href="#menu2">联盟店铺</a></li>
+				</ul>
+			</div>
+		    <div class="tab-content">
+		        <form class="searchForm" id="home" class="tab-pane fade in active" method="get" action="#">
+					<input class="inputTxt" type="text" placeholder="请输入您要搜索的兑付宝商品关键字"/>
+					<input class="inputBtn" type="button" value="搜索" />
+				</form>
+		    </div>
+			<div class="keyWords">
+				热门搜索：
+				<ul>
+					<li><a href="#">冰酒</a></li>
+					<li><a href="#">富氢水</a></li>
+					<li><a href="#">家纺</a></li>
+					<li><a href="#">石斛</a></li>
+					<li><a href="#">黑枸杞</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="userMenu">		<!--dropdown无法自由定位,再次点击时颜色未还原,caret未换方向-->
+			<div class="dropdown">	
+			  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+			  	<span class="glyphicon glyphicon-user"></span> 我的商城
+			  <span class="caret"></span></button>
+			  <div  class="dropdown-menu dropdown-menu-right">
+			  	<div class="row">
+				  	<div class="col-sm-12">
+				  		<a class="userCenter" href="#">我的用户中心</a></div>
+				  	<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<div class="row">
+				  			<div class="col-sm-6">
+				  				<ul class="userContent">
+				  					<li><a href="#">站内消息<span class="badge">0</span></a></li>
+				  					<li><a href="#">咨询回复<span class="badge">0</span></a></li>
+				  					<li><a href="#">APP下载/公众号</a></li>
+				  				</ul>
+				  			</div>
+				  			<div class="col-sm-6">
+				  				<ul class="userContent">
+				  					<li><a href="#">我的订单</a></li>
+				  					<li><a href="#">我的收藏</a></li>
+				  				</ul>
+				  			</div>
+				  		</div>
+				  	</div>
+				  	<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<span class="latest">最近浏览的商品</span>
+				  		<span class="history"><a href="#">全部浏览历史</a></span>
+				  	</div>
+				  	<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<p class="temporary">暂无商品</p>
+				  	</div>
+			  	</div>
+			  </div>
+			</div>
+				
+			<div class="dropdown">
+			  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+			  	<span class="glyphicon glyphicon-shopping-cart"></span> 购物车结算
+			  <span class="caret"></span></button>
+			  <div  class="dropdown-menu dropdown-menu-right">
+			  	<div class="row">
+			  		<div class="col-sm-12">
+				  		<p class="dropdown-header">最近添加的商品</p>
+				  	</div>
+			  		<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<p class="latest">您的购物车中暂无商品，赶快选择心爱的商品吧！</p>
+				  	</div>
+				  	<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<button type="button"  class="btn btn-success">结算购物车</button>
+				  	</div>
+			  	</div>
+			  </div>
+			</div>
+		
+			<div class="dropdown">
+			  <button class="btn dropdown-toggle" type="button" >
+			  	<span class="glyphicon glyphicon-yen"></span> 兑换购物车
+			  </button>
+			  <div  class="dropdown-menu"></div>
+			</div>						
+		</div>
+	</div>
+	<!--part two end-->
+	
+	<div class="navLayout">
+		<ul class="siteMenu">
+		  <li><a class="allProducts" href="#">所有商品</a></li>
+		  <li><a  class="current" href="#menu1">首页</a></li>
+		  <li><a href="#menu2">乐值商城</a></li>
+		  <li><a href="#menu3">限时抢购</a></li>
+		  <li><a href="#menu4">联盟商家</a></li>
+		  <li><a href="#menu5">咨询中心</a></li>
+		</ul>
+	</div>	
+
+	<div class="ctContent container">
+		<div class="breadcrumbWrapper">
+			<i class="glyphicon glyphicon-home"></i>
+			<span><a href="#">首页</a></span>
+			<span class="arrow">></span>
+			<span>店铺</span>
+			<a class="messageBar" href="#">乐值网IM+（点击聊天）</a>
+		</div>
+
+		<div class="storeClass">
+			<div class="storeClassTitle">店铺目录：</div>
+			<ul>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">保险</a></li>
+				<li><a href="#">旅游</a></li>
+				<li><a href="#">商超</a></li>
+				<li><a href="#">宾馆</a></li>
+				<li><a href="#">餐饮</a></li>
+				<li><a href="#">汽车</a></li>
+				<li><a href="#">大型连锁</a></li>
+				<li><a href="#">电信宽带</a></li>
+				<li><a href="#">市级代理</a></li>
+				<li><a href="#">二级代理</a></li>
+				<li><a href="#">俐生美公司</a></li>
+				<li><a href="#">健康养生</a></li>
+				<li><a href="#">进口商品专区</a></li>
+			</ul>
+		</div>
+		<div class="sortBar">
+			<span class="active"><a href="#">默认</a></span>
+			<span><a href="#">销量<i class="glyphicon glyphicon-triangle-top iconUp"></i><i class="glyphicon glyphicon-triangle-bottom iconBottom"></i></a></span>
+			<span><a href="#">信用<i class="glyphicon glyphicon-triangle-top iconUp"></i><i class="glyphicon glyphicon-triangle-bottom iconBottom"></i></a></span>
+			<p>店铺名称：<input type="text">&nbsp;&nbsp;&nbsp;&nbsp;|</p>
+			<p>店铺所在地：
+				<select>
+					<option>-请选择-</option>
+					<option value="1">北京</option>
+					<option value="2">天津</option>
+					<option value="3">河北</option>
+					<option value="4">山西</option>
+					<option value="5">内蒙古</option>
+					<option value="6">辽宁</option>
+					<option value="7">吉林</option>
+					<option value="8">黑龙江</option>
+					<option value="9">上海</option>
+					<option value="10">江苏</option>
+					<option value="11">浙江</option>
+					<option value="12">安徽</option>
+					<option value="13">福建</option>
+					<option value="14">江西</option>
+					<option value="15">山东</option>
+					<option value="16">河南</option>
+					<option value="17">湖北</option>
+					<option value="18">湖南</option>
+					<option value="19">广东</option>
+					<option value="20">广西</option>
+					<option value="21">海南</option>
+					<option value="22">重庆</option>
+					<option value="23">四川</option>
+					<option value="24">贵州</option>
+					<option value="25">云南</option>
+					<option value="26">西藏</option>
+					<option value="27">陕西</option>
+					<option value="28">甘肃</option>
+					<option value="29">青海</option>
+					<option value="30">宁夏</option>
+					<option value="31">新疆</option>
+					<option value="32">台湾</option>
+					<option value="33">香港</option>
+					<option value="34">澳门</option>
+					<option value="35">海外 </option>
+				</select>&nbsp;&nbsp;&nbsp;&nbsp;|
+			</p>
+			<button>搜索</button>
+		</div>
+		<!-- list one -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/store/05129047180615697_sm.png" alt="乐值网自营">
+					<div>
+						<span class="ti"><a href="#" class="title">乐值网自营</a></span><br>
+						<span class="mainGoods">主营商品：冰酒，家装家纺，茶叶饮品，化妆美容</span><br>
+						<span class="shopkeeper">店主：admin <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>
+				</div>
+				<div class="goods">
+					<p>商品数量183件</p>
+					<p>最近成交217笔</p>
+					<p>
+						<a id="tog" href="javascript:;">展开相关商品&nbsp;<span class="glyphicon glyphicon-menu-down down1"></span><span class="glyphicon glyphicon-menu-down down2"></span></a>
+					</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：82%</p>
+					<p id="cre" class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div id="creDital" class="creDital">
+							<div class="arrow"></div>
+							<p>描述相符：5分</p>
+							<p>服务态度：5分</p>
+							<p>发货速度：5分</p>
+						</div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>浙江省 杭州市 拱墅区</p>
+				</div>
+				<div id="goodsContent" class="goodsContent">
+					<div class="arrow"></div>
+					<a id="prev" href="javascript:;"><div class="jcarouselPrev glyphicon glyphicon-menu-left"></div></a>
+					<div class="jcarousel">
+						<ul id="jcarouselUl">
+							<li>
+								<div class="proPic">
+									<a href="#" title="anzeel安洁免洗泡沫手消毒液50ml 旅行便携 温和安全不含酒精(测试产品)">
+										<img src="https://www.lezhi365.com.cn/data/upload/shop/store/goods/1/1_05271586940096258_240.jpg" alt="anzeel安洁免洗泡沫手消毒液50ml 旅行便携 温和安全不含酒精(测试产品)"/>
+									</a>
+								</div>
+								<div class="proName">
+									<a href="#">anzeel安洁免洗泡沫手消毒液50ml 旅行便携 温和安全不含酒精(测试产品)<br/>&nbsp;</a>
+								</div>
+								<div class="proCost">
+									<span>￥<em>1.00</em></span>
+								</div>
+								<div class="proSales">最近成交74笔</div>
+							</li>
+							<li>
+								<div class="proPic">
+									<a href="#" title="听水八骏图富氢水杯">
+										<img src="https://www.lezhi365.com.cn/data/upload/shop/store/goods/1/1_05345068762816427_240.png" alt="听水八骏图富氢水杯"/>
+									</a>
+								</div>
+								<div class="proName">
+									<a href="#">听水八骏图富氢水杯<br/>&nbsp;</a>
+								</div>
+								<div class="proCost">
+									<span>￥<em>760.00</em></span>
+								</div>
+								<div class="proSales">最近成交29笔</div>
+							</li>
+							<li>
+								<div class="proPic">
+									<a href="#" title="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂">
+										<img src="https://www.lezhi365.com.cn/data/upload/shop/store/goods/1/1_05226051425905601_240.jpg" alt="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂"/>
+									</a>
+								</div>
+								<div class="proName">
+									<a href="#">CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂<br/>&nbsp;</a>
+								</div>
+								<div class="proCost">
+									<span>￥<em>98.00</em></span>
+								</div>
+								<div class="proSales">最近成交25笔</div>
+							</li>
+							<li>
+								<div class="proPic">
+									<a href="#" title="嘉贝瑞  晶透细致毛孔精粹水 净含量100ml">
+										<img src="https://www.lezhi365.com.cn/data/upload/shop/store/goods/1/1_05243341798423488_240.jpg" alt="嘉贝瑞  晶透细致毛孔精粹水 净含量100ml"/>
+									</a>
+								</div>
+								<div class="proName">
+									<a href="#">嘉贝瑞  晶透细致毛孔精粹水 净含量100ml<br/>&nbsp;</a>
+								</div>
+								<div class="proCost">
+									<span>￥<em>238.00</em></span>
+								</div>
+								<div class="proSales">最近成交21笔</div>
+							</li>
+							<li>
+								<div class="proPic">
+									<a href="#" title="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂">
+										<img src="https://www.lezhi365.com.cn/data/upload/shop/store/goods/1/1_05226048653971881_240.jpg" alt="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂"/>
+									</a>
+								</div>
+								<div class="proName">
+									<a href="#">CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂<br/>&nbsp;</a>
+								</div>
+								<div class="proCost">
+									<span>￥<em>98.00</em></span>
+								</div>
+								<div class="proSales">最近成交13笔</div>
+							</li>
+							<li>
+								<div class="proPic">
+									<a href="#" title="CONIBO美国进口宠物除臭除菌剂 养宠必备 200ml">
+										<img src="https://www.lezhi365.com.cn/data/upload/shop/store/goods/1/1_05226045201501320_240.jpg" alt="CONIBO美国进口宠物除臭除菌剂 养宠必备 200ml"/>
+									</a>
+								</div>
+								<div class="proName">
+									<a href="#">CONIBO美国进口宠物除臭除菌剂 养宠必备 200ml<br/>&nbsp;</a>
+								</div>
+								<div class="proCost">
+									<span>￥<em>128.00</em></span>
+								</div>
+								<div class="proSales">最近成交10笔</div>
+							</li>
+							<li>
+								<div class="proPic">
+									<a href="#" title="嘉贝瑞 清颜净透乳   100ml">
+										<img src="https://www.lezhi365.com.cn/data/upload/shop/store/goods/1/1_05226045201501320_240.jpg" alt="嘉贝瑞 清颜净透乳   100ml"/>
+									</a>
+								</div>
+								<div class="proName">
+									<a href="#">嘉贝瑞 清颜净透乳   100ml<br/>&nbsp;</a>
+								</div>
+								<div class="proCost">
+									<span>￥<em>288.00</em></span>
+								</div>
+								<div class="proSales">最近成交10笔</div>
+							</li>
+							<li>
+								<div class="proPic">
+									<a href="#" title="嘉贝瑞 晶透润沁补水霜 30g">
+										<img src="https://www.lezhi365.com.cn/data/upload/shop/store/goods/1/1_05226045201501320_240.jpg" alt="嘉贝瑞 晶透润沁补水霜 30g"/>
+									</a>
+								</div>
+								<div class="proName">
+									<a href="#">嘉贝瑞 晶透润沁补水霜 30g<br/>&nbsp;</a>
+								</div>
+								<div class="proCost">
+									<span>￥<em>338.00</em></span>
+								</div>
+								<div class="proSales">最近成交9笔</div>
+							</li>
+						</ul>
+					</div>
+					<a id="next" href="javascript:;"><div class="jcarouselNext glyphicon glyphicon-menu-right"></div></a>
+				</div>
+
+			</div>
+		</div>
+		<!-- list two -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/store/05310692379620186_sm.png" alt="保险之家">
+					<div>
+						<span class="ti"><a href="#" class="title">保险之家</a></span><br>
+						<span class="mainGoods">主营商品：车险</span><br>
+						<span class="shopkeeper">店主：18067932777 <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>
+				</div>
+				<div class="goods">
+					<p>暂无商品</p>
+					<p>暂无销量</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：100%</p>
+					<p class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div></div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>内蒙古自治区 包头市 固阳县</p>
+				</div>
+			</div>
+		</div>
+		<!-- list three -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/common/default_store_avatar.gif" alt="妙莲">
+					<div>
+						<span><a href="#" class="title">妙莲</a></span><br>
+						<span class="mainGoods">主营商品：冰酒，家装家纺，茶叶饮品，化妆美容</span><br>
+						<span class="shopkeeper">店主：董雪莹 <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>	
+				</div>
+				<div class="goods">
+					<p>暂无商品</p>
+					<p>暂无销量</p>
+					<p>
+						<a id="tog" href="javascript:;">展开相关商品&nbsp;<span class="glyphicon glyphicon-menu-down down1"></span><span class="glyphicon glyphicon-menu-down down2"></span></a>
+					</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：100%</p>
+					<p class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div></div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>天津 天津市 南开区</p>
+				</div>
+			</div>
+		</div>
+		<!-- list four -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/common/default_store_avatar.gif" alt="一减一瘦身俱乐部">
+					<div>						
+						<span><a href="#" class="title">一减一瘦身俱乐部</a></span><br>
+						<span class="mainGoods">主营商品：冰酒，家装家纺，茶叶饮品，化妆美容</span><br>
+						<span class="shopkeeper">店主：13944573313 <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>	
+				</div>
+				<div class="goods">
+					<p>暂无商品</p>
+					<p>暂无销量</p>
+					<p>
+						<a id="tog" href="javascript:;">展开相关商品&nbsp;<span class="glyphicon glyphicon-menu-down down1"></span><span class="glyphicon glyphicon-menu-down down2"></span></a>
+					</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：100%</p>
+					<p class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div></div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>吉林省 通化市 辉南县</p>
+				</div>
+			</div>
+		</div>
+		<!-- list five -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/common/default_store_avatar.gif" alt="一减一瘦身俱乐部">
+					<div>						
+						<span><a href="#" class="title">一减一瘦身俱乐部</a></span><br>
+						<span class="mainGoods">主营商品：</span><br>
+						<span class="shopkeeper">店主：13944573313 <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>
+				</div>
+				<div class="goods">
+					<p>暂无商品</p>
+					<p>暂无销量</p>
+					<p>
+						<a id="tog" href="javascript:;">展开相关商品&nbsp;<span class="glyphicon glyphicon-menu-down down1"></span><span class="glyphicon glyphicon-menu-down down2"></span></a>
+					</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：100%</p>
+					<p class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div></div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>吉林省 通化市 辉南县</p>
+				</div>
+			</div>
+		</div>
+		<!-- list six -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/store/05129047180615697_sm.png" alt="半边天美容养生馆">
+					<div>
+						<span><a href="#" class="title">半边天美容养生馆</a></span><br>
+						<span class="mainGoods">主营商品：</span><br>
+						<span class="shopkeeper">店主：13207147818 <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>
+				</div>
+				<div class="goods">
+					<p>暂无商品</p>
+					<p>暂无销量</p>
+					<p>
+						<a id="tog" href="javascript:;">展开相关商品&nbsp;<span class="glyphicon glyphicon-menu-down down1"></span><span class="glyphicon glyphicon-menu-down down2"></span></a>
+					</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：82%</p>
+					<p class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div></div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>湖北省 武汉市 汉南区</p>
+				</div>
+			</div>
+		</div>
+		<!-- list seven -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/store/05129047180615697_sm.png" alt="半边天美容养生馆">
+					<div>
+						<span><a href="#" class="title">半边天美容养生馆</a></span><br>
+						<span class="mainGoods">主营商品：</span><br>
+						<span class="shopkeeper">店主：13207147818 <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>
+				</div>
+				<div class="goods">
+					<p>暂无商品</p>
+					<p>暂无销量</p>
+					<p>
+						<a id="tog" href="javascript:;">展开相关商品&nbsp;<span class="glyphicon glyphicon-menu-down down1"></span><span class="glyphicon glyphicon-menu-down down2"></span></a>
+					</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：82%</p>
+					<p class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div></div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>湖北省 武汉市 汉南区</p>
+				</div>
+			</div>
+		</div>
+		<!-- list eight -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/store/05129047180615697_sm.png" alt="柯城养真堂美容生活馆">
+					<div>
+						<span><a href="#" class="title">柯城养真堂美容生活馆</a></span><br>
+						<span class="mainGoods">主营商品：</span><br>
+						<span class="shopkeeper">店主：0000000306 <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>
+				</div>
+				<div class="goods">
+					<p>暂无商品</p>
+					<p>暂无销量</p>
+					<p>
+						<a id="tog" href="javascript:;">展开相关商品&nbsp;<span class="glyphicon glyphicon-menu-down down1"></span><span class="glyphicon glyphicon-menu-down down2"></span></a>
+					</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：100%</p>
+					<p class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div></div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>浙江省 衢州市 柯城区</p>
+				</div>
+			</div>
+		</div>
+		<!-- list night -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/store/05129047180615697_sm.png" alt="茵梦湖亚健康调理中心">
+					<div>
+						<span><a href="#" class="title">茵梦湖亚健康调理中心</a></span><br>
+						<span class="mainGoods">主营商品：</span><br>
+						<span class="shopkeeper">店主：15283911931 <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>
+				</div>
+				<div class="goods">
+					<p>暂无商品</p>
+					<p>暂无销量</p>
+					<p>
+						<a id="tog" href="javascript:;">展开相关商品&nbsp;<span class="glyphicon glyphicon-menu-down down1"></span><span class="glyphicon glyphicon-menu-down down2"></span></a>
+					</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：100%</p>
+					<p class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div></div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>四川省 广元市 利州区 </p>
+				</div>
+			</div>
+		</div>
+		<!-- list ten -->
+		<div class="storeList">
+			<div class="item">
+				<div class="info">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/store/05129047180615697_sm.png" alt="木吒">
+					<div>
+						<span><a href="#" class="title">木吒</a></span><br>
+						<span class="mainGoods">主营商品：</span><br>
+						<span class="shopkeeper">店主：15868131991 <a href="#" class="glyphicon glyphicon-envelope message"></a><a href="#" class="qq"></a> </span>
+					</div>
+				</div>
+				<div class="goods">
+					<p>暂无商品</p>
+					<p>暂无销量</p>
+					<p>
+						<a id="tog" href="javascript:;">展开相关商品&nbsp;<span class="glyphicon glyphicon-menu-down down1"></span><span class="glyphicon glyphicon-menu-down down2"></span></a>
+					</p>
+				</div>
+				<div class="credit">
+					<p>信用度：<img src="" alt=""></p>
+					<p>好评率：100%</p>
+					<p class="cre">店铺动态评分：
+						<span><i class="rate glyphicon glyphicon-triangle-bottom"></i></span>
+						<div></div>
+					</p>
+				</div>
+				<div class="locat">
+					<p>四川省</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="page">
+			<ul>
+				<li class="noLink">首页</li>
+				<li class="noLink">上一页</li>
+				<li class="currentPage">1</li>
+				<li class="demo"><a href="#">2</a></li>
+				<li class="demo"><a href="#">3</a></li>
+				<li class="demo"><a href="#">4</a></li>
+				<li class="demo"><a href="#">5</a></li>
+				<li class="demo"><a href="#">6</a></li>
+				<li class="demo"><a href="#">下一页</a></li>
+				<li class="demo"><a href="#">末页</a></li>
+			</ul>
+		</div>
+
+	</div>	
+	<!-- part three end -->
+
+	<div class="footer">
+		<div class="footerLine"></div>
+		<div class="faq">
+			<ul class="container">
+				<li>
+					<dl>
+						<dt>乐值帮助 </dt>
+						<dd>
+							<a href="#" title="短信验证收不到怎么办？">短信验证收不到怎么办？</a>
+						</dd>
+						<dd>
+							<a href="#" title="我要兑换产品 ">我要兑换产品 </a>
+						</dd>
+						<dd>
+							<a href="#" title="如何注册成为会员">如何注册成为会员</a>
+						</dd>
+						<dd>
+							<a href="#" title="兑付宝积分 ">兑付宝积分 </a>
+						</dd>
+						<dd>
+							<a href="#" title="忘记密码 ">忘记密码 </a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>乐值店家 </dt>
+						<dd>
+							<a href="#" title="商城商品推荐">商城商品推荐 </a>
+						</dd>
+						<dd>
+							<a href="#" title="如何申请开店">如何申请开店  </a>
+						</dd>
+						<dd>
+							<a href="#" title="如何管理店铺">如何管理店铺</a>
+						</dd>
+						<dd>
+							<a href="#" title="如何发货">如何发货 </a>
+						</dd>
+						<dd>
+							<a href="#" title="查看售出商品 ">查看售出商品 </a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>乐值支付 </dt>
+						<dd>
+							<a href="#" title="乐值开户行与帐号">乐值开户行与帐号 </a>
+						</dd>
+						<dd>
+							<a href="#" title="移动端">移动端  </a>
+						</dd>
+						<dd>
+							<a href="#" title="微信支付">微信支付</a>
+						</dd>
+						<dd>
+							<a href="#" title="支付宝支付">支付宝支付 </a>
+						</dd>
+						<dd>
+							<a href="#" title="银联支付">银联支付</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>乐值售后 </dt>
+						<dd>
+							<a href="#" title="退换货政策">退换货政策 </a>
+						</dd>
+						<dd>
+							<a href="#" title="退换货流程 ">退换货流程   </a>
+						</dd>
+						<dd>
+							<a href="#" title="退款申请">退款申请</a>
+						</dd>
+						<dd>
+							<a href="#" title="联系售后">联系售后 </a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>乐值客服 </dt>
+						<dd>
+							<a href="#" title="区代管理后台">区代管理后台 </a>
+						</dd>
+						<dd>
+							<a href="#" title="商品发布 ">商品发布   </a>
+						</dd>
+						<dd>
+							<a href="#" title="会员修改个人资料">会员修改个人资料</a>
+						</dd>
+						<dd>
+							<a href="#" title="修改收货地址">修改收货地址 </a>
+						</dd>
+						<dd>
+							<a href="#" title="会员修改密码">会员修改密码</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>关于乐值 </dt>
+						<dd>
+							<a href="#" title="了解不一样的家纺知识">了解不一样的家纺知识 </a>
+						</dd>
+						<dd>
+							<a href="#" title=" 乐值商城兑换操作流程视频  "> 乐值商城兑换操作流程视频    </a>
+						</dd>
+						<dd>
+							<a href="#" title=" 央视网新品发布 "> 央视网新品发布 </a>
+						</dd>
+						<dd>
+							<a href="#" title=" 空腹喝水有哪些好处？ "> 空腹喝水有哪些好处？  </a>
+						</dd>
+						<dd>
+							<a href="#" title=" 富氢水的好处 "> 富氢水的好处 </a>
+						</dd>
+					</dl>
+				</li>
+			
+				<div class="contact">
+					<p class="tel">400-118-1158</p>
+					<p class="mail">2942841718@qq.com</p>
+					<div class="weixin fs">
+						<img class="fs" src="https://www.lezhi365.com.cn/data/upload/shop/common/05313327660483198.jpg" />
+						<div class="fs">
+ 						<p>扫一扫</p>
+ 						<p>关注我们</p>
+						</div>
+					</div>
+					<div class="weibo fs">
+						<div class="tencent icon">
+							<a href="#">腾讯微博</a>
+						</div>
+						<div class="sina icon">
+							<a href="#">新浪微博</a>
+						</div>
+					</div>
+				</div>
+			
+			</ul>
+			
+		</div>
+		<div class="foo">
+			<p>
+				<a href="#">首页</a>|
+				<a href="#">招聘英才</a>|
+				<a href="#">合作及洽谈</a>|
+				<a href="#">联系我们</a>|
+				<a href="#">友情链接</a>
+			</p>
+			<a class="num" href="#">Copyright 2015沪ICP备16027249号-1</a><br />
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,2618 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>index</title>
+
+	<link rel="stylesheet" type="text/css" href="css/Mbootstrap.css" />
+	<script rel="stylesheet" type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+	
+	<div class="chatBar">
+		<div class="chat"><a href="#">IM聊天</a></div>
+	</div>
+	
+	<nav class="navbar navbar-default">          <!--未设置有效链接-->
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+	      <span class="navbar-brand">您好！欢迎来到<a  href="#" title="首页" alt="首页"> 乐值网-让消费者消费的幸福_乐购天下,尊享所值</a></span>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+		    <ul class="nav navbar-nav">
+		      <li><a href="#" data-toggle="modal" data-target="#logIn">登录</a></li>
+		      <li><a href="#" data-toggle="modal" data-target="#signUp">注册</a></li>
+		    </ul>
+		    
+		    <!-- Modal -->
+		    <div class="modal fade" id="logIn" role="dialog">
+			    <div class="modal-dialog">
+			      <!-- Modal content-->
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h4 class="modal-title">用户登录</h4>
+			        </div>
+			        <div class="modal-body">
+			          <form role="form">
+					    <div class="form-group">
+					      <label for="phone">手机号:</label>
+					      <input type="phone" class="form-control" id="phone" placeholder="请输入您的手机号">
+					    </div>
+					    <div class="form-group">
+					      <label for="pwd">密码:</label>
+					      <input type="password" class="form-control" id="pwd" placeholder="请输入您的密码">
+					    </div>
+					    <div class="checkbox">
+					      <label><input type="checkbox"> Remember me</label>
+					    </div>
+					    <!--如何添加验证码-->
+					    <button type="login" class="btn btn-default">登录</button>
+					  </form>
+			        </div>
+			      </div>
+			    </div>
+			</div>
+			<!-- modal -->
+			<div class="modal fade" id="signUp" role="dialog">
+			    <div class="modal-dialog">
+			      <!-- Modal content-->
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h4 class="modal-title">用户注册</h4>
+			        </div>
+			        <div class="modal-body">
+			          <form role="form">
+					    <div class="form-group">
+					      <label for="phone">手机号:</label>
+					      <input type="phone" class="form-control" id="phone" placeholder="请输入您的手机号">
+					    </div>
+					    <div class="form-group">
+					      <label for="pwd">密码:</label>
+					      <input type="password" class="form-control" id="pwd" placeholder="请输入您的密码">
+					    </div>
+					    <div class="form-group">
+					      <label for="pwd">确认密码:</label>
+					      <input type="password" class="form-control" id="pwd" placeholder="请再次输入您的密码">
+					    </div>
+					    <button type="signin" class="btn btn-default">注册</button>
+					  </form>
+			        </div>
+			      </div>
+			      
+			    </div>
+			</div>
+		    
+		    <ul class="nav navbar-nav navbar-right">
+		      <li><a href="#"> 手机触屏版</a></li>
+		   
+	      	  <li class="dropdown">				<!--改为让鼠标移上去就显示下拉框-->
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">免费开店
+		        <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">招商入驻</a></li>
+		          <li><a href="#">商家登录</a></li>
+		        </ul>
+		      </li>
+		      
+		      <li class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">我的订单
+		        <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">待付款订单</a></li>
+		          <li><a href="#">待确认收货</a></li>
+		          <li><a href="#">待评价交易</a></li>
+		        </ul>
+		      </li>
+		      
+		      <li class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">我的收藏
+		        <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">商品收藏</a></li>
+		          <li><a href="#">店铺收藏</a></li>
+		        </ul>
+		      </li>
+		      
+		      <li class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">客户服务
+		        <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">帮助中心</a></li>
+		          <li><a href="#">售后服务</a></li>
+		          <li><a href="#">客服中心</a></li>
+		        </ul>
+		      </li>
+		      
+		      <li><a href="#"> APP下载</a></li>
+		    </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!--part one end-->
+	
+	<div class="header-wrap">
+		<div class="logo">
+			<a href="#"><img src="img/logo.png" alt="logo" /></a>
+		</div>
+		<div class="location">		<!--未设置定位切换-->
+			<p><a href="">全国</a></p>
+			<p><a data-toggle="modal" href="#city">切换城市</a></p>
+		</div>
+
+		<!-- modal city-->
+		<div class="modal fade" id="city" role="dialog">
+			<div class="modal-dialog">
+				<!-- modal-content -->
+				<div class="modal-content">
+					<div class="modal-body"> 
+						<dl>
+							<dt>全囯</dt>
+							<a href="#">全国</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>北京</dt>
+							<a data-toggle="modal" href="#Beijing">北京</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>天津</dt>
+							<a href="">天津</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>河北省</dt>
+							<a href="">石家庄</a>
+							<a href="">唐山</a>
+							<a href="">秦皇岛</a>
+							<a href="">邯郸</a>
+							<a href="">邢台</a>
+							<a href="">保定</a>
+							<a href="">张家口</a>
+							<a href="">承德</a>
+							<a href="">衡水</a>
+							<a href="">廊坊</a>
+							<a href="">沧州</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>山西省</dt>
+							<a href="">太原</a>
+							<a href="">大同</a>
+							<a href="">阳泉</a>
+							<a href="">长治</a>
+							<a href="">晋城</a>
+							<a href="">朔州</a>
+							<a href="">晋中</a>
+							<a href="">运城</a>
+							<a href="">忻州</a>
+							<a href="">临汾</a>
+							<a href="">吕梁</a>
+							<hr>
+						</dl>
+						<dl>
+							<dt>内蒙古自治区</dt>
+							<a href="">呼和浩特</a>
+							<a href="">包头</a>
+							<a href="">乌海</a>
+							<a href="">赤峰</a>
+							<a href="">通辽</a>
+							<a href="">鄂尔多斯</a>
+							<a href="">呼伦贝尔</a>
+							<a href="">巴彦淖尔</a>
+							<a href="">乌兰察布</a>
+							<a href="">兴安盟</a>
+							<a href="">锡林郭勒盟</a>
+							<a href="">阿拉善盟</a>
+							<hr>
+						</dl>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- modal city end -->
+
+		<!-- modal Beijing-->
+		<div class="modal fade" id="Beijing" role="dialog">
+			<div class="modal-dialog">
+				<!-- modal-content -->
+				<div class="modal-content">
+					<div class="modal-body">
+						<a href="#">东城区</a>
+						<a href="#">西城区</a>
+						<a href="#">朝阳区</a>
+						<a href="#">丰台区</a>
+						<a href="#">石景山区</a>
+						<a href="#">海淀区</a>
+						<a href="#">门头沟区</a>
+						<a href="#">房山区</a>
+						<a href="#">通州区</a>
+						<a href="#">顺义区</a>
+						<a href="#">昌平区</a>
+						<a href="#">大兴区</a>
+						<a href="#">怀柔区</a>
+						<a href="#">平谷区</a>
+						<a href="#">密云县</a>
+						<a href="#">延庆县</a>
+						<a href="#">其他</a>
+						<hr>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- modal end -->
+
+		<div class="search">
+			<div class="searchBar">
+				<ul  class="nav nav-pills">		<!--未改变搜索框的保留字-->
+					<li title="请输入您要搜索的兑付宝商品关键字" class="active"><a data-toggle="pill" href="#home">
+						兑付宝商城</a></li>
+					<li title="请输入您要搜索的商品关键字"><a data-toggle="pill" href="#menu1">乐值商城</a></li>
+					<li title="请输入您要搜索的联盟店铺关键字"><a data-toggle="pill" href="#menu2">联盟店铺</a></li>
+				</ul>
+			</div>
+		    <div class="tab-content">
+		        <form class="searchForm" id="home" class="tab-pane fade in active" method="get" action="#">
+					<input class="inputTxt" type="text" placeholder="请输入您要搜索的兑付宝商品关键字"/>
+					<input class="inputBtn" type="button" value="搜索" />
+				</form>
+		    </div>
+			<div class="keyWords">
+				热门搜索：
+				<ul>
+					<li><a href="#">冰酒</a></li>
+					<li><a href="#">富氢水</a></li>
+					<li><a href="#">家纺</a></li>
+					<li><a href="#">石斛</a></li>
+					<li><a href="#">黑枸杞</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="userMenu">		<!--dropdown无法自由定位,再次点击时颜色未还原,caret未换方向-->
+			<div class="dropdown">	
+			  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+			  	<span class="glyphicon glyphicon-user"></span> 我的商城
+			  <span class="caret"></span></button>
+			  <div  class="dropdown-menu dropdown-menu-right">
+			  	<div class="row">
+				  	<div class="col-sm-12">
+				  		<a class="userCenter" href="#">我的用户中心</a></div>
+				  	<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<div class="row">
+				  			<div class="col-sm-6">
+				  				<ul class="userContent">
+				  					<li><a href="#">站内消息<span class="badge">0</span></a></li>
+				  					<li><a href="#">咨询回复<span class="badge">0</span></a></li>
+				  					<li><a href="#">APP下载/公众号</a></li>
+				  				</ul>
+				  			</div>
+				  			<div class="col-sm-6">
+				  				<ul class="userContent">
+				  					<li><a href="#">我的订单</a></li>
+				  					<li><a href="#">我的收藏</a></li>
+				  				</ul>
+				  			</div>
+				  		</div>
+				  	</div>
+				  	<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<span class="latest">最近浏览的商品</span>
+				  		<span class="history"><a href="#">全部浏览历史</a></span>
+				  	</div>
+				  	<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<p class="temporary">暂无商品</p>
+				  	</div>
+			  	</div>
+			  </div>
+			</div>
+				
+			<div class="dropdown">
+			  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+			  	<span class="glyphicon glyphicon-shopping-cart"></span> 购物车结算
+			  <span class="caret"></span></button>
+			  <div  class="dropdown-menu dropdown-menu-right">
+			  	<div class="row">
+			  		<div class="col-sm-12">
+				  		<p class="dropdown-header">最近添加的商品</p>
+				  	</div>
+			  		<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<p class="latest">您的购物车中暂无商品，赶快选择心爱的商品吧！</p>
+				  	</div>
+				  	<div class="col-sm-12">
+				  		<div class="divider"></div>
+				  		<button type="button"  class="btn btn-success">结算购物车</button>
+				  	</div>
+			  	</div>
+			  </div>
+			</div>
+		
+			<div class="dropdown">
+			  <button class="btn dropdown-toggle" type="button" >
+			  	<span class="glyphicon glyphicon-yen"></span> 兑换购物车
+			  </button>
+			  <div  class="dropdown-menu"></div>
+			</div>						
+		</div>
+	</div>
+	<!--part two end-->
+	
+	<div class="homeLayout">
+		<ul class="site-menu">
+		  <li><a class="allProducts" href="#">所有商品</a></li>
+		  <li><a  class="current" href="#menu1">首页</a></li>
+		  <li><a href="#menu2">乐值商城</a></li>
+		  <li><a href="#menu3">限时抢购</a></li>
+		  <li><a href="#menu4">联盟商家</a></li>
+		  <li><a href="#menu5">咨询中心</a></li>
+		</ul>
+		
+		<div class="club">全国乐粉人数：5817462人</div>
+		
+		<div class="category">
+		  <ul>
+		  	<li class="odd" id="menu1">
+		  		<h6><a href="#">健康管理</a></h6>
+		  		<span><a href="#">铁皮石斛 </a><a href="#">黑枸杞 </a><a href="#">尊品冰酒</a></span>
+		  	</li>
+		  	<li class="even" id="menu2">
+		  		<h6><a href="#">美丽定制</a></h6>
+		  		<span><a href="#">嘉贝瑞 </a><a href="#">深睡眠 </a><a href="#">天然真丝</a></span>
+		  	</li>
+		  	<li class="odd" id="menu3">
+		  		<h6><a href="#">品质生活</a></h6>
+		  		<span><a href="#">吴顺华紫砂系列 </a><a href="#">富氢水杯 </a></span>
+		  	</li>
+		  	<li class="even" id="menu4">
+		  		<h6><a href="#">智慧课堂</a></h6>
+		  		<span><a href="#">禅修体验营 </a><a href="#">神销售 </a><a href="#">国学</a></span>
+		  	</li>
+		  	<li class="odd" id="menu5">
+		  		<h6><a href="#">联盟商家</a></h6>
+		  		<span><a href="#">进口商品专区 </a></span>
+		  	</li>
+		  	<li class="even" id="menu6">
+		  		<h6><a href="#">美容养生</a></h6>
+		  		<span>&nbsp;</span>
+		  	</li>
+		  	<li class="odd" id="menu7">
+		  		<h6><a href="#">进口商品专区</a></h6>
+		  		<span><a href="#">进口奶粉 </a><a href="#">保健品 </a><a href="#">日化商品</a></span>
+		  	</li>
+		  	<li class="even" id="menu8">
+		  		<h6><a href="#">高端饰品</a></h6>
+		  		<span><a href="#">手串 </a><a href="#">精品皮包 </a></span>
+		  	</li>
+		  </ul>
+		</div>
+		
+		<div class="rightBar">
+			<ul>
+				<li class="b1">代金券</li>
+				<li class="b2">兑付宝</li>
+				<li class="b3">极速发货</li>
+			</ul>
+			<div class="buy">
+				<div class="latestBuy"><i>抢</i>近期抢购</div>
+				<a href="#" class="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				<div class="picture">
+			      <a href="#" class="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+			      
+			      <div class="newProduct">
+			      	<p>新品抢购</p>
+			      	<span class="cost">￥3979.90</span>
+			      	<span class="buyBtn">
+			      		<button type="button" class="btn btn-danger">抢购</button>
+			      	</span>
+			        <br />
+			      	<span class="sale">已售：1 &nbsp;&nbsp;&nbsp;</span><span class="cutdown">360天4时9分28秒</span>
+			      </div>
+				</div>
+			</div>
+		
+			<div class="options">
+			    <span class="active"><a data-toggle="tab" href="#ho">乐值招商入驻&nbsp;&nbsp;</a></span>
+			    <span><a data-toggle="tab" href="#me">&nbsp;&nbsp;乐值公告</a></span>
+			</div>
+			
+			<div class="optionsCon tab-content">
+			    <div id="ho" class="tab-pane fade in active">
+			     <button>商家入驻</button>
+			     <p><span></span><a href="#">登录商家管理中心</a></p>
+			    </div>
+			    <div id="me" class="tab-pane fade">
+			       <i><a href="#">乐值网简介</a></i><br />
+			       <i><a href="#">如何修改支付密码</a></i><br />
+			       <i><a href="#">功能使用说明</a></i><br />
+			       <i><a href="#">管理功能说明</a></i><br />
+			    </div> 
+			</div>
+		
+		</div>
+		
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		    <li data-target="#myCarousel" data-slide-to="3"></li>
+		    <li data-target="#myCarousel" data-slide-to="4"></li>
+		  </ol>
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="img/1.jpg" alt="富氢水机">
+		    </div>
+		    <div class="item">
+		      <img src="img/2.jpg" alt="话费免费送">
+		    </div>
+		    <div class="item">
+		      <img src="img/3.jpg" alt="尊品冰酒">
+		    </div>
+		    <div class="item">
+		      <img src="img/4.jpg" alt="进口商品专区">
+		    </div>
+		    <div class="item">
+		      <img src="img/5.jpg" alt="俐生美">
+		    </div>
+		  </div>
+		
+		</div>
+				
+	</div>
+	<!--part three end-->
+	
+	<div class="saleLayout container">
+		<div class="leftSale">
+			<ul class="nav nav-tabs nav-justified">
+			    <li class="active"><a data-toggle="tab" href="#production1">热卖商品</a></li>
+			    <li><a data-toggle="tab" href="#production2">疯狂抢购</a></li>
+			    <li><a data-toggle="tab" href="#production3">猜您喜欢</a></li>
+			    <li><a data-toggle="tab" href="#production4">热评商品</a></li>
+			    <li><a data-toggle="tab" href="#production5">新品上架</a></li>
+			</ul>
+			<div class="tab-content">
+				
+				<div id="production1" class="tab-pane fade in active">
+					<li>
+						<div class="proPic">
+							<a href="#" title="野生黑枸杞">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328908373157119_mid.jpg" alt="野生黑枸杞"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">野生黑枸杞<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥50.00+500兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="尊品冰酒50ml*30">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328890019130878_mid.jpg" alt="尊品冰酒50ml*30"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">尊品冰酒50ml*30<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮枫斗">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328907074260366_mid.jpg" alt="雁秀铁皮枫斗"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮枫斗<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥105.00+1050兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="Conibo免水抑菌洗手液">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328861871128810_mid.jpg" alt="Conibo免水抑菌洗手液"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">Conibo免水抑菌洗手液<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥11.80+118兑付宝</span>
+						</div>	
+				    </li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="尊品冰酒50ml*30">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328829967431446_mid.jpg" alt="尊品冰酒50ml*30"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">尊品冰酒50m*l30<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+				</div>
+				
+				<div id="production2" class="tab-pane fade">
+					<li>
+						<div class="proPic">
+							<a href="#" title="欧梦园家纺四件套 格韵（宝石蓝）深睡眠 真丝加天丝 功能床上用品">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328694447894307_mid.jpg" alt="欧梦园家纺四件套 格韵（宝石蓝）深睡眠 真丝加天丝 功能床上用品"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">欧梦园家纺四件套 格韵（宝石蓝）深睡眠真丝加天丝 功能床上用品<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥780.00+7800兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="欧梦园家纺四件套 (莱希庄园)深睡眠  功能床上用品">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328696119455022_mid.jpg" alt="欧梦园家纺四件套 (莱希庄园)深睡眠  功能床上用品"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">欧梦园家纺四件套 (莱希庄园)深睡眠功能床上用品<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥760.00+7600兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="欧梦园家纺四件套 YQ90701(橙色)<br/>深睡眠 真丝加天丝 功能床上用品">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328695288401269_mid.jpg" alt="欧梦园家纺四件套 YQ90701(橙色) 深睡眠 真丝加天丝 功能床上用品"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">欧梦园家纺四件套 YQ90701(橙色)深睡眠 真丝加天丝功能床上用品<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥775.00+7750兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="欧梦园家纺四件套 依恋（玫红)深睡眠 真丝加天丝 功能床上用品 220*240">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05340025264693584_mid.jpg" alt="欧梦园家纺四件套 依恋（玫红)深睡眠 真丝加天丝 功能床上用品 220*240"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">欧梦园家纺四件套依恋（玫红)深睡眠 真丝加天丝功能床上用品 220*240<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥968.00+9680兑付宝</span>
+						</div>	
+				    </li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="欧梦园家纺四件套 (莱希庄园)深睡眠 80匹马棉 功能床上用品 220*240">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05340028975080988_mid.jpg" alt="欧梦园家纺四件套 (莱希庄园)深睡眠 80匹马棉 功能床上用品 220*240"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">欧梦园家纺四件套 (莱希庄园)深睡眠 80匹马棉 功能床上用品 220*240<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥948.00+9480兑付宝</span>
+						</div>
+					</li>
+				</div>
+				
+				<div id="production3" class="tab-pane fade">
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制乳钉紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328847483898181_mid.jpg" alt="国家级工艺大师吴顺华特制乳钉紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制<br/>乳钉紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥750.00+7500兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="九级能量水机（蓝色）">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05339077920689311_mid.jpg" alt="九级能量水机（蓝色）"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">九级能量水机（蓝色）<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制石瓢紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338308577062118_mid.png" alt="国家级工艺大师吴顺华特制石瓢紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制<br/>石瓢紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥800.00+8000兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="富氢养生杯">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338213114825367_mid.png" alt="富氢养生杯"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">富氢养生杯<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥298.00+2980兑付宝</span>
+						</div>	
+				    </li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="听水八骏图富氢水杯">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338308263934201_mid.png" alt="听水八骏图富氢水杯"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">听水八骏图富氢水杯<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥76.00+760兑付宝</span>
+						</div>
+					</li>
+				</div>
+										
+				<div id="production4" class="tab-pane fade">
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮枫斗">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328906453283381_mid.jpg" alt="雁秀铁皮枫斗"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮枫斗<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥105.00+1050兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮石斛">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328905395569132_mid.jpg" alt="雁秀铁皮石斛"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮石斛<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥86.00+860兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮枫斗">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328907074260366_mid.jpg" alt="雁秀铁皮枫斗"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮枫斗<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥105.00+1050兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞 清颜净透乳   100ml">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05245921903270777_mid.jpg" alt="嘉贝瑞 清颜净透乳   100ml"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞 清颜净透乳   100ml<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥28.80+2880兑付宝</span>
+						</div>	
+				    </li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞 精华1号 40ml">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05245945552856823_mid.jpg" alt="嘉贝瑞 精华1号 40ml"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞 精华1号 40ml<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥39.80+398兑付宝</span>
+						</div>
+					</li>
+				</div>
+				
+				<div id="production5" class="tab-pane fade">
+					<li>
+						<div class="proPic">
+							<a href="#" title="野生黑枸杞">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328908373157119_mid.jpg" alt="野生黑枸杞"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">野生黑枸杞<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥50.00+500兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮枫斗">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328907074260366_mid.jpg" alt="雁秀铁皮枫斗"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮枫斗<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥105.00+1050兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮石斛">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328905395569132_mid.jpg" alt="雁秀铁皮石斛"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮石斛<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥86.00+860兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="尊品冰酒50ml*30">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328829967431446_mid.jpg" alt="尊品冰酒50ml*30"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">尊品冰酒50m*l30<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+				    </li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="听水八骏图富氢水杯">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338308263934201_mid.png" alt="听水八骏图富氢水杯"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">听水八骏图富氢水杯<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥76.00+760兑付宝</span>
+						</div>
+					</li>
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="bargin">
+			<div class="title">限时折扣</div>
+			<div class="timeCut">
+				<em>286</em>天<em>10</em>小时<em>12</em>分<em>28</em>秒
+			</div>
+			<div class="rightPic">
+				<a href="#" class="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				<a href="#" class="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+				<a href="#" title="听水八骏图富氢水杯">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338308263934201_mid.png" alt="听水八骏图富氢水杯"/>
+				</a>
+			</div>
+			<div class="discount"></div>
+			<div class="rightCost">
+				<em>¥759.90 </em><span>¥760.00</span>
+			</div>
+			<div class="proName">
+				听水八骏图富氢水杯
+			</div>
+		</div>
+		
+	</div>
+	<div class="security">
+			<a href="#" title="物流自提服务站"><img src="img/secury.jpg"/></a>
+	</div>
+	<!--part four end-->
+	
+			<!--floorOne-->
+	<div class="series container" id="floor1">
+		<div class="rightAds">
+			<div class="title">
+				<span>1F</span>
+				<p>冰酒系列</p>
+			</div>
+			<div class="Ads">
+				<a href="#" title="">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-3-33.jpg?964" alt=""/>
+				</a>
+			</div>
+			<div class="type">
+				<ul>
+					<li><a href="#">礼品</a></li>
+					<li><a href="#">尊品冰酒</a></li>
+					<li><a href="#">北纬冰酒</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="middleAds">
+			<div class="title">
+				<span><a href="#">商品推荐</a></span>
+			</div>
+			<div class="Ads">
+				<ul>
+					<li>
+						<div class="proPic">
+							<a href="#" title="尊品冰酒50ml*30">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05351347636629337_mid.png" alt="尊品冰酒50ml*30"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">尊品冰酒50m*l30<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="尊品冰酒50ml*30">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05351347970674830_mid.png" alt="尊品冰酒50ml*30"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">尊品冰酒50m*l30<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="尊品冰酒50ml*30">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05351348472524081_mid.png" alt="尊品冰酒50ml*30"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">尊品冰酒50m*l30<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="尊品冰酒50ml*30">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328824341419509_mid.jpg" alt="尊品冰酒50ml*30"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">尊品冰酒50m*l30<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					
+					<li>
+						<div class="proPic">
+							<a href="#" title="尊品冰酒50ml*30">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328829178851208_mid.jpg" alt="尊品冰酒50ml*30"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">尊品冰酒50m*l30<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="尊品冰酒50ml*30">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05316590341816814_mid.jpg" alt="尊品冰酒50ml*30"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">尊品冰酒50m*l30<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="法国进口图波尔干红葡萄酒2瓶礼盒装">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05405794570281978_mid.jpg" alt="法国进口图波尔干红葡萄酒2瓶礼盒装"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">法国进口图波尔干红葡萄酒2瓶礼盒装</a>
+						</div>
+						<div class="proCost">
+							<span>￥336.00+3360兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="法国进口伯爵佳酿干红葡萄酒2瓶礼盒装">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05405794681571769_mid.jpg" alt="法国进口伯爵佳酿干红葡萄酒2瓶礼盒装"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">法国进口伯爵佳酿干红葡萄酒2瓶礼盒装</a>
+						</div>
+						<div class="proCost">
+							<span>￥400.00+4000兑付宝</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="leftAds">
+			<ul>
+				<li>
+					<a href="#" title="铁皮石斛" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393601740926_sm.jpg"  alt="铁皮石斛"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393289094594_sm.jpg"  alt="紫砂壶1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园-1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393039790566_sm.jpg"  alt="欧梦园-1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="雁秀" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392680104916_sm.jpg"  alt="雁秀"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="CONIBO" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392279974487_sm.jpg"  alt="CONIBO"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="41度冰酒" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391941503494_sm.jpg"  alt="41度冰酒"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="Listening" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391368041727_sm.jpg"  alt="Listening"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390414658812_sm.jpg"  alt="欧梦园"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="嘉贝瑞" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390204255746_sm.jpg"  alt="嘉贝瑞"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="极楷基因" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389832852607_sm.jpg"  alt="极楷基因"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389361352510_sm.jpg"  alt="紫砂壶"/>
+					</a>
+				</li>
+			</ul>
+			<div class="Ads">
+				<a href="#" title=""><img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-3-38-1.jpg?905" alt=""/></a>
+			</div>
+		</div>
+		</div>
+				<!--floorTwo-->
+	<div class="series container" id="floor2">
+		<div class="rightAds">
+			<div class="title">
+				<span>2F</span>
+				<p>富氢水系列</p>
+			</div>
+			<div class="Ads">
+				<a href="#" title="">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-6-63.jpg?985" alt=""/>
+				</a>
+			</div>
+			<div class="type">
+				<ul>
+					<li><a href="#">富氢水杯</a></li>
+					<li><a href="#">富氢空气净化器</a></li>
+					<li><a href="#">富氢水机</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="middleAds">
+			<div class="title">
+				<span><a href="#">商品推荐</a></span>
+			</div>
+			<div class="Ads">
+				<ul>
+					<li>
+						<div class="proPic">
+							<a href="#" title="九级能量水机（蓝色）">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05339077920689311_mid.jpg" alt="九级能量水机（蓝色）"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">九级能量水机（蓝色）<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="富氢养生杯">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338213114825367_mid.png" alt="富氢养生杯"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">富氢养生杯<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥298.00+2980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="九级能量水机(红色)">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05339078209141763_mid.jpg" alt="九级能量水机(红色)"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">九级能量水机(红色)<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="富氢水杯">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338213478004814_mid.png" alt="富氢水杯"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">富氢水杯<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥298.00+2980兑付宝</span>
+						</div>
+					</li>
+					
+					<li>
+						<div class="proPic">
+							<a href="#" title="听水八骏图富氢水杯">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338308263934201_mid.png" alt="听水八骏图富氢水杯"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">听水八骏图富氢水杯<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥76.00+760兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="富氢空气净化器">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05351098936478861_mid.jpg" alt="富氢空气净化器"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">富氢空气净化器<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="九级能量水机（蓝色）">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05339078074782861_mid.jpg" alt="九级能量水机（蓝色）"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">九级能量水机（蓝色）<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥398.00+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="听水富氢水机">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05395195609113679_mid.jpg" alt="听水富氢水机"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">听水富氢水机<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥768.00+7680兑付宝</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="leftAds">
+			<ul>
+				<li>
+					<a href="#" title="铁皮石斛" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393601740926_sm.jpg"  alt="铁皮石斛"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393289094594_sm.jpg"  alt="紫砂壶1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园-1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393039790566_sm.jpg"  alt="欧梦园-1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="雁秀" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392680104916_sm.jpg"  alt="雁秀"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="CONIBO" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392279974487_sm.jpg"  alt="CONIBO"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="41度冰酒" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391941503494_sm.jpg"  alt="41度冰酒"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="Listening" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391368041727_sm.jpg"  alt="Listening"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390414658812_sm.jpg"  alt="欧梦园"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="嘉贝瑞" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390204255746_sm.jpg"  alt="嘉贝瑞"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="极楷基因" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389832852607_sm.jpg"  alt="极楷基因"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389361352510_sm.jpg"  alt="紫砂壶"/>
+					</a>
+				</li>
+			</ul>
+			<div class="Ads">
+				<a href="#" title=""><img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-6-68-1.jpg?634" alt=""/></a>
+			</div>
+		</div>
+		</div>
+				<!--floorThree-->
+	<div class="series container" id="floor3">
+		<div class="rightAds">
+			<div class="title">
+				<span>3F</span>
+				<p>家居家纺</p>
+			</div>
+			<div class="Ads">
+				<a href="#" title="">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-4-43.jpg?198" alt=""/>
+				</a>
+			</div>
+			<div class="type">
+				<ul>
+					<li><a href="#">深睡眠</a></li>
+					<li><a href="#">天然真丝</a></li>
+					<li><a href="#">功能床上用品</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="middleAds">
+			<div class="title">
+				<span><a href="#">商品推荐</a></span>
+			</div>
+			<div class="Ads">
+				<ul>
+					<li>
+						<div class="proPic">
+							<a href="#" title="欧梦园家纺四件套 (莱希庄园)深睡眠  功能床上用品">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328696119455022_mid.jpg" alt="欧梦园家纺四件套 (莱希庄园)深睡眠  功能床上用品"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">欧梦园家纺四件套 (莱希庄园)深睡眠  功能床上用品</a>
+						</div>
+						<div class="proCost">
+							<span>￥760.00+7600兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="幸福精灵四件套   220*230">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05310495814769069_mid.png" alt="幸福精灵四件套   220*230"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">幸福精灵四件套   220*230<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥269.90+2699兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="一米阳光四件套  220*230">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05310493593910359_mid.png" alt="一米阳光四件套  220*230"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">一米阳光四件套  220*230<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥269.90+2699兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="欧梦园家纺四件套 格韵（宝石蓝）深睡眠 真丝加天丝 功能床上用品">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328694447894307_mid.jpg" alt="欧梦园家纺四件套 格韵（宝石蓝）深睡眠 真丝加天丝 功能床上用品"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">欧梦园家纺四件套 格韵（宝石蓝）深睡眠 真丝加天丝 功能床上</a>
+						</div>
+						<div class="proCost">
+							<span>￥780.00+7800兑付宝</span>
+						</div>
+					</li>
+					
+					<li>
+						<div class="proPic">
+							<a href="#" title="欧梦园家纺四件套 YQ90701(橙色) 深睡眠 真丝加天丝 功能床上用品">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328695288401269_mid.jpg" alt="欧梦园家纺四件套 YQ90701(橙色) 深睡眠 真丝加天丝 功能床上用品"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">欧梦园家纺四件套 YQ90701(橙色)深睡眠 真丝加天丝 功能床上用</a>
+						</div>
+						<div class="proCost">
+							<span>￥775.00+7750兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="欧梦园家纺四件套 依恋（玫红)深睡眠 真丝加天丝 功能床上用品 220*240">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05340025264693584_mid.jpg" alt="欧梦园家纺四件套 依恋（玫红)深睡眠 真丝加天丝 功能床上用品 220*240"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">欧梦园家纺四件套 依恋（玫红)深睡眠 真丝加天丝 功能床上用品</a>
+						</div>
+						<div class="proCost">
+							<span>￥968.00+9680兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="格蕾尔条纹英伦四件套 220*240">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05310501061894324_mid.png" alt="格蕾尔条纹英伦四件套 220*240"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">格蕾尔条纹英伦四件套 220*240<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥289.00+2890兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="婉菲四件套   220*240">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05310498337241352_mid.png" alt="婉菲四件套   220*240"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">婉菲四件套   220*240<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥289.90+2899兑付宝</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="leftAds">
+			<ul>
+				<li>
+					<a href="#" title="铁皮石斛" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393601740926_sm.jpg"  alt="铁皮石斛"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393289094594_sm.jpg"  alt="紫砂壶1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园-1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393039790566_sm.jpg"  alt="欧梦园-1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="雁秀" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392680104916_sm.jpg"  alt="雁秀"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="CONIBO" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392279974487_sm.jpg"  alt="CONIBO"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="41度冰酒" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391941503494_sm.jpg"  alt="41度冰酒"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="Listening" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391368041727_sm.jpg"  alt="Listening"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390414658812_sm.jpg"  alt="欧梦园"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="嘉贝瑞" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390204255746_sm.jpg"  alt="嘉贝瑞"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="极楷基因" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389832852607_sm.jpg"  alt="极楷基因"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389361352510_sm.jpg"  alt="紫砂壶"/>
+					</a>
+				</li>
+			</ul>
+			<div class="Ads">
+				<a href="#" title=""><img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-4-48-1.jpg?968" alt=""/></a>
+			</div>
+		</div>
+		</div>
+				<!--floorFour-->
+	<div class="series container" id="floor4">
+		<div class="rightAds">
+			<div class="title">
+				<span>4F</span>
+				<p>化妆品</p>
+			</div>
+			<div class="Ads">
+				<a href="#" title="">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-8-83.jpg?965" alt=""/>
+				</a>
+			</div>
+			<div class="type">
+				<ul>
+					<li><a href="#">嘉贝瑞</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="middleAds">
+			<div class="title">
+				<span><a href="#">商品推荐</a></span>
+			</div>
+			<div class="Ads">
+				<ul>
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞 精华1号">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338304547112195_mid.png" alt="嘉贝瑞 精华1号"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞 精华1号<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥39.80+3980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞 晶透柔肤洁面乳   净含量100g">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338301161110724_mid.png" alt="嘉贝瑞 晶透柔肤洁面乳   净含量100g"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞 晶透柔肤洁面乳   净含量100g</a>
+						</div>
+						<div class="proCost">
+							<span>￥19.80+1980兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞  晶透保湿精粹水 净含量100ml">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338305439217026_mid.png" alt="嘉贝瑞  晶透保湿精粹水 净含量100ml"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞  晶透保湿精粹水 净含量100ml</a>
+						</div>
+						<div class="proCost">
+							<span>￥23.80+238兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞 晶透润沁补水霜 30g">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338300437826578_mid.png" alt="嘉贝瑞 晶透润沁补水霜 30g"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞 晶透润沁补水霜 30g<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥33.80+338兑付宝</span>
+						</div>
+					</li>
+					
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞 润养水凝乳   100ml">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338222233950671_mid.png" alt="嘉贝瑞 润养水凝乳   100ml"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞 润养水凝乳   100ml<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥28.80+288兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞 丝柔美颜亮肌面膜 22mlx10pcs">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338212947524390_mid.png" alt="嘉贝瑞 丝柔美颜亮肌面膜 22mlx10pcs"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞 丝柔美颜亮肌面膜 22mlx10pcs</a>
+						</div>
+						<div class="proCost">
+							<span>￥39.80+398兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞 清颜净透乳 100ml">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338220949534454_mid.png" alt="嘉贝瑞 清颜净透乳 100ml"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞 清颜净透乳 100ml<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥28.80+288兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="嘉贝瑞 精华2号  40ml">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05338306216885321_mid.png" alt="嘉贝瑞 精华2号  40ml"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">嘉贝瑞 精华2号  40ml<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥39.80+398兑付宝</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="leftAds">
+			<ul>
+				<li>
+					<a href="#" title="铁皮石斛" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393601740926_sm.jpg"  alt="铁皮石斛"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393289094594_sm.jpg"  alt="紫砂壶1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园-1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393039790566_sm.jpg"  alt="欧梦园-1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="雁秀" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392680104916_sm.jpg"  alt="雁秀"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="CONIBO" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392279974487_sm.jpg"  alt="CONIBO"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="41度冰酒" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391941503494_sm.jpg"  alt="41度冰酒"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="Listening" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391368041727_sm.jpg"  alt="Listening"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390414658812_sm.jpg"  alt="欧梦园"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="嘉贝瑞" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390204255746_sm.jpg"  alt="嘉贝瑞"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="极楷基因" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389832852607_sm.jpg"  alt="极楷基因"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389361352510_sm.jpg"  alt="紫砂壶"/>
+					</a>
+				</li>
+			</ul>
+			<div class="Ads">
+				<a href="#" title=""><img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-8-88-1.jpg?867" alt=""/></a>
+			</div>
+		</div>
+		</div>
+				<!--floorFive-->
+	<div class="series container" id="floor5">
+		<div class="rightAds">
+			<div class="title">
+				<span>5F</span>
+				<p>紫砂系列</p>
+			</div>
+			<div class="Ads">
+				<a href="#" title="">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-1-13.jpg?812" alt=""/>
+				</a>
+			</div>
+			<div class="type">
+				<ul>
+					<li><a href="#">紫砂系列</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="middleAds">
+			<div class="title">
+				<span><a href="#">商品推荐</a></span>
+			</div>
+			<div class="Ads">
+				<ul>
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制指点江山紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338308934235544_mid.png" alt="国家级工艺大师吴顺华特制指点江山紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制指点江山紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥780.00+7800兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制雨花井栏紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338309609730117_mid.png" alt="国家级工艺大师吴顺华特制雨花井栏紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制雨花井栏紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥820.00+8200兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制狮钮紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338309757943044_mid.png" alt="国家级工艺大师吴顺华特制狮钮紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制狮钮紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥800.00+8000兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制石瓢紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338309122206059_mid.png" alt="国家级工艺大师吴顺华特制石瓢紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制石瓢紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥800.00+8000兑付宝</span>
+						</div>
+					</li>
+					
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制雨花石紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338309458169299_mid.png" alt="国家级工艺大师吴顺华特制雨花石紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制雨花石紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥820.00+8200兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制仿古壶紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338309324273793_mid.png" alt="国家级工艺大师吴顺华特制仿古壶紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制仿古壶紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥800.00+8000兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制乳钉紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328847483898181_mid.jpg" alt="国家级工艺大师吴顺华特制乳钉紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制乳钉紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥750.00+7500兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="国家级工艺大师吴顺华特制石瓢紫砂壶">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05338308577062118_mid.png" alt="国家级工艺大师吴顺华特制石瓢紫砂壶"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">国家级工艺大师吴顺华特制石瓢紫砂壶</a>
+						</div>
+						<div class="proCost">
+							<span>￥800.00+8000兑付宝</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="leftAds">
+			<ul>
+				<li>
+					<a href="#" title="铁皮石斛" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393601740926_sm.jpg"  alt="铁皮石斛"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393289094594_sm.jpg"  alt="紫砂壶1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园-1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393039790566_sm.jpg"  alt="欧梦园-1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="雁秀" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392680104916_sm.jpg"  alt="雁秀"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="CONIBO" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392279974487_sm.jpg"  alt="CONIBO"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="41度冰酒" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391941503494_sm.jpg"  alt="41度冰酒"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="Listening" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391368041727_sm.jpg"  alt="Listening"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390414658812_sm.jpg"  alt="欧梦园"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="嘉贝瑞" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390204255746_sm.jpg"  alt="嘉贝瑞"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="极楷基因" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389832852607_sm.jpg"  alt="极楷基因"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389361352510_sm.jpg"  alt="紫砂壶"/>
+					</a>
+				</li>
+			</ul>
+			<div class="Ads">
+				<a href="#" title=""><img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-1-18-2.jpg?709" alt=""/></a>
+			</div>
+		</div>
+		</div>
+				<!--floorSix-->
+	<div class="series container" id="floor6">
+		<div class="rightAds">
+			<div class="title">
+				<span>6F</span>
+				<p>空气治理</p>
+			</div>
+			<div class="Ads">
+				<a href="#" title="">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-5-53.jpg?655" alt=""/>
+				</a>
+			</div>
+			<div class="type">
+				<ul>
+					<li><a href="#">除菌除臭</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="middleAds">
+			<div class="title">
+				<span><a href="#">商品推荐</a></span>
+			</div>
+			<div class="Ads">
+				<ul>
+					<li>
+						<div class="proPic">
+							<a href="#" title="CONIBO美国进口宠物除臭除菌剂 养宠必备 200ml">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05361513633146017_mid.jpg" alt="CONIBO美国进口宠物除臭除菌剂 养宠必备 200ml"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">CONIBO美国进口宠物除臭除菌剂 养宠必备 200ml</a>
+						</div>
+						<div class="proCost">
+							<span>￥12.80+128兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="Conibo免水抑菌洗手液">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05328861871128810_mid.jpg" alt="Conibo免水抑菌洗手液"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">Conibo免水抑菌洗手液</a>
+						</div>
+						<div class="proCost">
+							<span>￥11.80+118兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="CONIBO美国进口宠物除臭除菌剂 养宠必备 200ml">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05328863881402129_mid.jpg" alt="CONIBO美国进口宠物除臭除菌剂 养宠必备 200ml"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">CONIBO美国进口宠物除臭除菌剂 养宠必备 200ml</a>
+						</div>
+						<div class="proCost">
+							<span>￥12.80+128兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05328860912425148_mid.jpg" alt="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂</a>
+						</div>
+						<div class="proCost">
+							<span>￥9.80+98兑付宝</span>
+						</div>
+					</li>
+					
+					<li>
+						<div class="proPic">
+							<a href="#" title="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05328859986676931_mid.jpg" alt="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂</a>
+						</div>
+						<div class="proCost">
+							<span>￥9.80+98兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="CONIBO美国进口宠物除臭除菌剂 养宠必备">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05238082425533070_mid.jpg" alt="CONIBO美国进口宠物除臭除菌剂 养宠必备"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">CONIBO美国进口宠物除臭除菌剂 养宠必备</a>
+						</div>
+						<div class="proCost">
+							<span>￥12.80+128兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05238080870439470_mid.jpg" alt="CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">CONIBO鞋靴除菌除臭喷剂 美国EPA注册消毒剂</a>
+						</div>
+						<div class="proCost">
+							<span>￥9.80+98兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="Conibo免水抑菌洗手液">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05238078429391560_mid.jpg" alt="Conibo免水抑菌洗手液"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">Conibo免水抑菌洗手液<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥11.80+118兑付宝</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="leftAds">
+			<ul>
+				<li>
+					<a href="#" title="铁皮石斛" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393601740926_sm.jpg"  alt="铁皮石斛"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393289094594_sm.jpg"  alt="紫砂壶1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园-1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393039790566_sm.jpg"  alt="欧梦园-1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="雁秀" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392680104916_sm.jpg"  alt="雁秀"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="CONIBO" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392279974487_sm.jpg"  alt="CONIBO"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="41度冰酒" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391941503494_sm.jpg"  alt="41度冰酒"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="Listening" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391368041727_sm.jpg"  alt="Listening"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390414658812_sm.jpg"  alt="欧梦园"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="嘉贝瑞" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390204255746_sm.jpg"  alt="嘉贝瑞"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="极楷基因" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389832852607_sm.jpg"  alt="极楷基因"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389361352510_sm.jpg"  alt="紫砂壶"/>
+					</a>
+				</li>
+			</ul>
+			<div class="Ads">
+				<a href="#" title=""><img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-5-58-1.jpg?255" alt=""/></a>
+			</div>
+		</div>
+		</div>
+				<!--floorSeven-->
+	<div class="series container" id="floor7">
+		<div class="rightAds">
+			<div class="title">
+				<span>7F</span>
+				<p> 铁皮石斛</p>
+			</div>
+			<div class="Ads">
+				<a href="#" title="">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-2-23.jpg?410" alt=""/>
+				</a>
+			</div>
+			<div class="type">
+				<ul>
+					<li><a href="#">铁皮石斛</a></li>
+					<li><a href="#">黑枸杞</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="middleAds">
+			<div class="title">
+				<span><a href="#">商品推荐</a></span>
+			</div>
+			<div class="Ads">
+				<ul>
+					<li>
+						<div class="proPic">
+							<a href="#" title="野生黑枸杞">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328908373157119_mid.jpg" alt="野生黑枸杞"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">野生黑枸杞<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥50.00+500兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮石斛">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328907773615319_mid.jpg" alt="雁秀铁皮石斛"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮石斛<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥86.00+860兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮枫斗">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328907074260366_mid.jpg" alt="雁秀铁皮枫斗"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮枫斗<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥105.00+1050兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮石斛">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328905395569132_mid.jpg" alt="雁秀铁皮石斛"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮石斛<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥86.00+860兑付宝</span>
+						</div>
+					</li>
+					
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮枫斗">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05328906453283381_mid.jpg" alt="雁秀铁皮枫斗"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮枫斗<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥105.00+1050兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮石斛">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05308070316448072_mid.jpg" alt="雁秀铁皮石斛"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮石斛<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥86.00+860兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="雁秀铁皮枫斗">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05308068706448574_mid.jpg" alt="雁秀铁皮枫斗"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">雁秀铁皮枫斗<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥105.00+1050兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="野生黑枸杞">
+								<img src="https://www.lezhi365.com.cn/data/upload/shop/pointprod/05308069705967779_mid.jpg" alt="野生黑枸杞"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">野生黑枸杞<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥50.00+500兑付宝</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="leftAds">
+			<ul>
+				<li>
+					<a href="#" title="铁皮石斛" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393601740926_sm.jpg"  alt="铁皮石斛"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393289094594_sm.jpg"  alt="紫砂壶1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园-1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393039790566_sm.jpg"  alt="欧梦园-1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="雁秀" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392680104916_sm.jpg"  alt="雁秀"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="CONIBO" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392279974487_sm.jpg"  alt="CONIBO"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="41度冰酒" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391941503494_sm.jpg"  alt="41度冰酒"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="Listening" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391368041727_sm.jpg"  alt="Listening"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390414658812_sm.jpg"  alt="欧梦园"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="嘉贝瑞" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390204255746_sm.jpg"  alt="嘉贝瑞"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="极楷基因" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389832852607_sm.jpg"  alt="极楷基因"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389361352510_sm.jpg"  alt="紫砂壶"/>
+					</a>
+				</li>
+			</ul>
+			<div class="Ads">
+				<a href="#" title=""><img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-2-28-3.jpg?842" alt=""/></a>
+			</div>
+		</div>
+		</div>
+				<!--floorEight-->
+	<div class="series container">
+		<div class="rightAds">
+			<div class="title">
+				<span>8F</span>
+				<p>高端饰品</p>
+			</div>
+			<div class="Ads">
+				<a href="#" title="">
+					<img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-7-73.jpg?955" alt=""/>
+				</a>
+			</div>
+			<div class="type">
+				<ul>
+					<li><a href="#">蜜蜡手串</a></li>
+					<li><a href="#">鳄鱼皮包</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="middleAds">
+			<div class="title">
+				<span><a href="#">商品推荐</a></span>
+			</div>
+			<div class="Ads">
+				<ul>
+					<li>
+						<div class="proPic">
+							<a href="#" title="108颗蜜蜡圆珠17.6mm">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05382454770976001_mid.jpg" alt="108颗蜜蜡圆珠17.6mm"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">108颗蜜蜡圆珠17.6mm<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥1468.80+14688兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="108颗血珀圆珠6mm">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05382453085004218_mid.jpg" alt="108颗血珀圆珠6mm"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">108颗血珀圆珠6mm<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥468.00+4680兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="108颗蜜蜡圆珠6.5mm">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05382450268037309_mid.jpg" alt="108颗蜜蜡圆珠6.5mm"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">108颗蜜蜡圆珠6.5mm<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥2088.80+20888兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="108颗蜜蜡圆珠7mm">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05382448947587308_mid.jpg" alt="108颗蜜蜡圆珠7mm"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">108颗蜜蜡圆珠7mm<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥2188.80+21888兑付宝</span>
+						</div>
+					</li>
+					
+					<li>
+						<div class="proPic">
+							<a href="#" title="女士拎包子母款大号">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05394368643340884_mid.jpg" alt="女士拎包子母款大号"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">女士拎包子母款大号<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥2199.00+21990兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="女士拎包芬地款H-R331">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05394367593102255_mid.jpg" alt="女士拎包芬地款H-R331"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">女士拎包芬地款H-R331<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥2199.00+21990兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="女士拎包地款H-R331">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05394366316349226_mid.jpg" alt="女士拎包地款H-R331"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">女士拎包地款H-R331<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥1999.00+19990兑付宝</span>
+						</div>
+					</li>
+					<li>
+						<div class="proPic">
+							<a href="#" title="女士手拎包N708-1">
+								<img src="https://www.lezhi365.com.cn//data/upload/shop/pointprod/05394369867012718_mid.jpg" alt="女士手拎包N708-1"/>
+							</a>
+						</div>
+						<div class="proName">
+							<a href="#">女士手拎包N708-1<br/>&nbsp;</a>
+						</div>
+						<div class="proCost">
+							<span>￥1999.00+19990兑付宝</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="leftAds">
+			<ul>
+				<li>
+					<a href="#" title="铁皮石斛" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393601740926_sm.jpg"  alt="铁皮石斛"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393289094594_sm.jpg"  alt="紫砂壶1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园-1" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344393039790566_sm.jpg"  alt="欧梦园-1"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="雁秀" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392680104916_sm.jpg"  alt="雁秀"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="CONIBO" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344392279974487_sm.jpg"  alt="CONIBO"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="41度冰酒" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391941503494_sm.jpg"  alt="41度冰酒"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="Listening" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344391368041727_sm.jpg"  alt="Listening"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="欧梦园" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390414658812_sm.jpg"  alt="欧梦园"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="嘉贝瑞" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344390204255746_sm.jpg"  alt="嘉贝瑞"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="极楷基因" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389832852607_sm.jpg"  alt="极楷基因"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="紫砂壶" target="_blank">
+						<img src="https://www.lezhi365.com.cn/data/upload/shop/brand/05344389361352510_sm.jpg"  alt="紫砂壶"/>
+					</a>
+				</li>
+			</ul>
+			<div class="Ads">
+				<a href="#" title=""><img src="https://www.lezhi365.com.cn/data/upload/shop/editor/web-7-78-1.jpg?112" alt=""/></a>
+			</div>
+		</div>
+		</div>
+				<!--right nav bar-->  	<!--未改变背景图案，以及不要开始的时候出现-->
+		<div class="rightNavBar" id="myScrollspy">
+			<ul class="nav nav-pills nav-stacked">
+ 			<li class="active"><a class="navbar1" href="#floor1"></a></li>
+ 			<li><a class="navbar2" href="#floor2"></a></li>
+ 			<li><a class="navbar3" href="#floor3"></a></li>
+ 			<li><a class="navbar4" href="#floor4"></a></li>
+ 			<li><a class="navbar5" href="#floor5"></a></li>
+ 			<li><a class="navbar6" href="#floor6"></a></li>
+ 			<li><a class="navbar7" href="#floor7"></a></li>
+			</ul>
+		</div>
+		<!--part five end-->
+		
+		<div class="footer">
+			<div class="footerLine"></div>
+			<div class="faq">
+				<ul class="container">
+					<li>
+						<dl>
+							<dt>乐值帮助 </dt>
+							<dd>
+								<a href="#" title="短信验证收不到怎么办？">短信验证收不到怎么办？</a>
+							</dd>
+							<dd>
+								<a href="#" title="我要兑换产品 ">我要兑换产品 </a>
+							</dd>
+							<dd>
+								<a href="#" title="如何注册成为会员">如何注册成为会员</a>
+							</dd>
+							<dd>
+								<a href="#" title="兑付宝积分 ">兑付宝积分 </a>
+							</dd>
+							<dd>
+								<a href="#" title="忘记密码 ">忘记密码 </a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>乐值店家 </dt>
+							<dd>
+								<a href="#" title="商城商品推荐">商城商品推荐 </a>
+							</dd>
+							<dd>
+								<a href="#" title="如何申请开店">如何申请开店  </a>
+							</dd>
+							<dd>
+								<a href="#" title="如何管理店铺">如何管理店铺</a>
+							</dd>
+							<dd>
+								<a href="#" title="如何发货">如何发货 </a>
+							</dd>
+							<dd>
+								<a href="#" title="查看售出商品 ">查看售出商品 </a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>乐值支付 </dt>
+							<dd>
+								<a href="#" title="乐值开户行与帐号">乐值开户行与帐号 </a>
+							</dd>
+							<dd>
+								<a href="#" title="移动端">移动端  </a>
+							</dd>
+							<dd>
+								<a href="#" title="微信支付">微信支付</a>
+							</dd>
+							<dd>
+								<a href="#" title="支付宝支付">支付宝支付 </a>
+							</dd>
+							<dd>
+								<a href="#" title="银联支付">银联支付</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>乐值售后 </dt>
+							<dd>
+								<a href="#" title="退换货政策">退换货政策 </a>
+							</dd>
+							<dd>
+								<a href="#" title="退换货流程 ">退换货流程   </a>
+							</dd>
+							<dd>
+								<a href="#" title="退款申请">退款申请</a>
+							</dd>
+							<dd>
+								<a href="#" title="联系售后">联系售后 </a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>乐值客服 </dt>
+							<dd>
+								<a href="#" title="区代管理后台">区代管理后台 </a>
+							</dd>
+							<dd>
+								<a href="#" title="商品发布 ">商品发布   </a>
+							</dd>
+							<dd>
+								<a href="#" title="会员修改个人资料">会员修改个人资料</a>
+							</dd>
+							<dd>
+								<a href="#" title="修改收货地址">修改收货地址 </a>
+							</dd>
+							<dd>
+								<a href="#" title="会员修改密码">会员修改密码</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>关于乐值 </dt>
+							<dd>
+								<a href="#" title="了解不一样的家纺知识">了解不一样的家纺知识 </a>
+							</dd>
+							<dd>
+								<a href="#" title=" 乐值商城兑换操作流程视频  "> 乐值商城兑换操作流程视频    </a>
+							</dd>
+							<dd>
+								<a href="#" title=" 央视网新品发布 "> 央视网新品发布 </a>
+							</dd>
+							<dd>
+								<a href="#" title=" 空腹喝水有哪些好处？ "> 空腹喝水有哪些好处？  </a>
+							</dd>
+							<dd>
+								<a href="#" title=" 富氢水的好处 "> 富氢水的好处 </a>
+							</dd>
+						</dl>
+					</li>
+				
+					<div class="contact">
+ 					<p class="tel">400-118-1158</p>
+ 					<p class="mail">2942841718@qq.com</p>
+ 					<div class="weixin fs">
+ 						<img class="fs" src="https://www.lezhi365.com.cn/data/upload/shop/common/05313327660483198.jpg" />
+ 						<div class="fs">
+	 						<p>扫一扫</p>
+	 						<p>关注我们</p>
+ 						</div>
+ 					</div>
+ 					<div class="weibo fs">
+ 						<div class="tencent icon">
+ 							<a href="#">腾讯微博</a>
+ 						</div>
+ 						<div class="sina icon">
+ 							<a href="#">新浪微博</a>
+ 						</div>
+ 					</div>
+ 				</div>
+				
+				</ul>
+				
+			</div>
+			<div class="foo">
+				<p>
+					<a href="#">首页</a>|
+					<a href="#">招聘英才</a>|
+					<a href="#">合作及洽谈</a>|
+					<a href="#">联系我们</a>|
+					<a href="#">友情链接</a>
+				</p>
+				<a class="num" href="#">Copyright 2015沪ICP备16027249号-1</a><br />
+			</div>
+		</div>
+		
+</body>
+</html>
